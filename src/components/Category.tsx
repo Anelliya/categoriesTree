@@ -1,121 +1,202 @@
-import { useEffect, useState, useRef, SyntheticEvent } from "react"
-import {  changeStatus } from '../redux/categorySlice';
-import { getChildrenByParentId, getChildrensIds,getParentStatus , categoryHasChildren, getStatus, getChildrenStatus} from '../redux/selectors'
-import { useAppSelector, useAppDispatch } from '../hook'
+import { useEffect, useState, useRef } from 'react';
+import { changeStatus, changeCollapse } from '../redux/categorySlice';
+import {
+    getChildrenByParentId,
+    getChildrensIds,
+    categoryHasChildren,
+    getChildrenStatus,
+} from '../redux/selectors';
 
-import {CategoriesType, ChildrenType, CategoryType} from '../types'
+import { useAppSelector, useAppDispatch } from '../hook';
+
+import { CategoryType } from '../types';
 
 const CHECKBOX_STATUS = {
-  unchecked: 'incheked',
-  checked: 'checked',
-  indeterminate: 'indeterminate'
-}
+    unchecked: 'unchecked',
+    checked: 'checked',
+    indeterminate: 'indeterminate',
+};
 
-const Category = ({id, name, parentId, status}: CategoryType) => {
-    const [collapsed, setCollapsed] = useState<boolean>(true)
-    const [childrenVisible, setChildrenVisible] = useState<boolean>(false)
-    const [childrenIds, setChildrenIds] = useState<string[] | null>([])
-   
-    
-    const childrenState = useAppSelector(store => store.categoriesChildren)
-    const categoriesState = useAppSelector(state => state.categories)
+const Category = ({
+    id,
+    name,
+    matchesSearchTerm,
+    status,
+    isCollapsed,
+}: CategoryType) => {
+    const [childrenVisible, setChildrenVisible] = useState<boolean>(
+        !isCollapsed,
+    );
+    const [childrenIds, setChildrenIds] = useState<string[] | null>([]);
 
-    const dispatch = useAppDispatch()
-    const checkboxRef = useRef() as React.MutableRefObject<HTMLInputElement>
+    // returns children state as an object of parentId: {...children ids}
+    const childrenState = useAppSelector(state => state.categoriesChildren);
+    const categoriesState = useAppSelector(state => state.categories); // returns main state
 
-    const hasChildren = categoryHasChildren(childrenState, id)
-    const parentStatus = getParentStatus(categoriesState, id)
-    const categoryStatus = getStatus(categoriesState, id)
-    const childrenStatus = getChildrenStatus(categoriesState, childrenIds as [])
-     
-            console.log('childrenIds', childrenIds)
+    const dispatch = useAppDispatch();
+    const checkboxRef = useRef() as React.MutableRefObject<HTMLInputElement>;
 
-    
-     useEffect(() => {
-         setChildrenIds(getChildrensIds(childrenState, id))
-    }, [])
+    const hasChildren = categoryHasChildren(childrenState, id); //returns the children's ids array
+    const childrenStatus = getChildrenStatus(
+        categoriesState,
+        childrenIds as [],
+    ); //returns array of children's status
+
+    //gets the status of filter fiels (if searching is in progress or not)
+    const filter = useAppSelector(state => state.filter); 
+
+    const dispatchStatusChange = (status: string) => {
+        dispatch(
+            changeStatus({
+                id,
+                status,
+                childrenIds,
+                childrenState,
+            }),
+        );
+    };
 
     useEffect(() => {
-        if (categoryStatus === 'checked') {
-            checkboxRef.current.checked = true
-            checkboxRef.current.indeterminate = false
-        }
-        else if (categoryStatus === 'unchecked') {
-            checkboxRef.current.checked = false
-            checkboxRef.current.indeterminate = false
-        }
-        // else if (categoryStatus === 'indeterminate') {
-        //     checkboxRef.current.checked = false
-        //     checkboxRef.current.indeterminate = true
-        // }
-        
-    }, [categoryStatus])
-
-    useEffect(() => {
-       let status
-        if (childrenStatus?.length > 0) {
-            if (childrenStatus.every(status => status === 'checked') && categoryStatus !== 'checked') {
-                checkboxRef.current.indeterminate = false
-                status = 'checked'
-                dispatch(changeStatus({ id, status, childrenIds, childrenState }))
-            } else if (childrenStatus.every(status => status === 'unchecked') && categoryStatus !== 'unchecked') {
-                checkboxRef.current.indeterminate = false
-
-                status = 'unchecked'
-                dispatch(changeStatus({ id, status, childrenIds, childrenState }))
-            } 
-            else if(childrenStatus.some(status => status === 'checked') && childrenStatus.some(status => status === 'unchecked') || childrenStatus.some(status => status === 'indeterminate')){
-               status = 'indeterminate'
-               dispatch(changeStatus({id, status , childrenIds, childrenState}))
-               checkboxRef.current.indeterminate = true
+        setChildrenIds(getChildrensIds(childrenState, id)); //returns array of children ids if they are
+        if (checkboxRef.current) {
+            //sets checkbox depend on the received state status
+            if (status === CHECKBOX_STATUS.checked) {
+                checkboxRef.current.checked = true;
+                checkboxRef.current.indeterminate = false;
+            } else if (status === CHECKBOX_STATUS.unchecked) {
+                checkboxRef.current.checked = false;
+                checkboxRef.current.indeterminate = false;
             }
         }
-        
-    }, [childrenStatus])
+    }, []);
 
-        
-    const handleCheckboxClick = (e: SyntheticEvent) => {
-        if (checkboxRef.current.checked) {
-            const status = 'checked'
-            console.log("handle click send children id", childrenIds)
-            dispatch(changeStatus({id, status , childrenIds, childrenState}))
-           
-        } else if (!checkboxRef.current.checked) {
-            console.log("handle click send children id", childrenIds)
+    useEffect(() => {
+        //returns true when filter search is in progress
+        if (!filter.isActive) {
+            return;
+        }
+        //matchesSearchTerm returns true if category matching the search
+        setChildrenVisible(matchesSearchTerm);
+        if (matchesSearchTerm) {
+            //sets collapse to false only for category that matches for filter request
+            dispatch(changeCollapse({ collapsed: false, id }));
+        }
+    }, [filter]); 
 
-            const status = 'unchecked'
-            dispatch(changeStatus({id, status , childrenIds, childrenState}))
-       }
-    } 
+    useEffect(() => {
+        if (checkboxRef.current) {
+            //sets checkbox checked/unchecked/indeterminate depending on the received status
+            if (status === CHECKBOX_STATUS.checked) {
+                checkboxRef.current.checked = true;
+                checkboxRef.current.indeterminate = false;
+            } else if (status === CHECKBOX_STATUS.unchecked) {
+                checkboxRef.current.checked = false;
+                checkboxRef.current.indeterminate = false;
+            } else if (status === CHECKBOX_STATUS.indeterminate) {
+                checkboxRef.current.indeterminate = true;
+            }
+        }
+    }, [status]);
 
-    function handleRenderChildren() {
-        setChildrenVisible(!childrenVisible)
-        setCollapsed(!collapsed)
-    }
+    useEffect(() => {
+        //sets checkbox checked/unchecked/indeterminate depending on children's statuses
+        if (
+            childrenStatus?.every(
+                childStatus =>
+                    childStatus === CHECKBOX_STATUS[status as keyof object],
+            )
+        ) {
+            //does nothing if both, children and parent, have the same status
+            return; 
+        } else if (
+            childrenStatus?.every(
+                childStatus => childStatus === CHECKBOX_STATUS.checked,
+            )
+        ) {
+            // sets the checked status to parent, if all children are checked
+            dispatchStatusChange(CHECKBOX_STATUS.checked); 
+        } else if (
+            childrenStatus?.every(
+                childStatus => childStatus === CHECKBOX_STATUS.unchecked,
+            )
+        ) {
+            //sets the unchecked status to parent, if all children are unchecked
+            dispatchStatusChange(CHECKBOX_STATUS.unchecked); 
+        } else if (
+            childrenStatus?.some(childStatus => childStatus !== status) &&
+            status !== CHECKBOX_STATUS.indeterminate
+        ) {
+            // sets the indeterminate status to parent only if at least one child has diferent status from parent
+            dispatchStatusChange(CHECKBOX_STATUS.indeterminate); 
+        }
+    }, [childrenStatus]);
 
-    function renderChildren() {
-        const children = getChildrenByParentId(childrenState, categoriesState, id) 
-        return ( <ul>
-                    {children?.map(child => <Category {...child}/>)}
-                </ul>)
-    }
+    const handleCheckboxClick = () => {
+        // updates the status in the state based on the current checkbox status
+        dispatchStatusChange(
+            checkboxRef.current.checked
+                ? CHECKBOX_STATUS.checked
+                : CHECKBOX_STATUS.unchecked,
+        ); 
+    };
+
+    const handleRenderChildren = () => {
+        // toggles children visibility
+        setChildrenVisible(!childrenVisible);
+        dispatch(changeCollapse({ collapsed: !isCollapsed, id }));
+    };
+
+    const getChildren = () => {
+        //returns all children or filtered children depending on filter status
+        const children = getChildrenByParentId(
+            childrenState,
+            categoriesState,
+            id,
+        );
+        return filter.isActive
+            ? children.filter(child => child.matchesSearchTerm)
+            : children;
+    };
+
+    const renderChildren = () => {
+        // recursively renders a list of children
+        return (
+            <ul className='mx-5 mb-3'>
+                {getChildren()?.map(child => (
+                    <Category {...child} key={child.id} />
+                ))}
+            </ul>
+        );
+    };
 
     return (
+        // if the filter is in progress the current element is shown only if it matches the search term
         <>
-            <li key={id} className="drop-shadow-md hover:drop-shadow-2xl bg-gray-100 p-1 text-lg font-serif p-2 m-1">
-                <span className="cursor-pointer pr-4" onClick={handleRenderChildren}>
-                    {hasChildren && (collapsed ? '+' : "-")}
-                </span>
-                <input type="checkbox" id={id} ref={checkboxRef} onClick={handleCheckboxClick} className=" w-4 h-4 bg-gray-100 rounded"/>
-                
-                <label className="ml-1 text-gray-900 dark:text-gray-300 ">
-                    {id}
-                </label >
-
-                {childrenVisible &&  renderChildren()}
-            </li> 
+            {(!filter.isActive || matchesSearchTerm) && ( 
+                <li
+                    key={id}
+                    className=" bg-gray-100 p-1 text-lg font-serif p-1 m-1"
+                >
+                    <span
+                        className="cursor-pointer pr-4"
+                        onClick={handleRenderChildren}
+                    >
+                        {hasChildren && (isCollapsed ? '+' : '-')}
+                    </span>
+                    <input
+                        type="checkbox"
+                        ref={checkboxRef}
+                        onClick={handleCheckboxClick}
+                        className=" w-4 h-4 bg-gray-100 rounded"
+                    />
+                    <label className="ml-1 text-gray-900 dark:text-gray-300 ">
+                        {name}
+                    </label>
+                    {childrenVisible && childrenIds?.length && renderChildren()}
+                </li>
+            )}
         </>
-    )
-}
+    );
+};
 
- export default Category
+export default Category;

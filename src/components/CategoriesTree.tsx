@@ -1,35 +1,23 @@
-import { useEffect, useState } from "react";
-import { VariableSizeList as List } from 'react-window';
-import { useAppSelector, useAppDispatch } from '../hook'
+import { useAppSelector } from '../hook';
 import { getRootCategories } from '../redux/selectors';
+import ViewportList from 'react-viewport-list';
 
-import Category from './Category'
-import {CategoriesType, CategoryType} from '../types'
+import Category from './Category';
 
+const CategoriesTree = (): JSX.Element => {
+    const childrenState = useAppSelector(state => state.categoriesChildren);
+    const categoriesState = useAppSelector(state => state.categories);
 
+    //gets the root categories to render it
+    const rootCategoriesArr = getRootCategories(childrenState, categoriesState);
 
-function CategoriesTree(): JSX.Element {
+    return (
+        <ul >
+            <ViewportList items={rootCategoriesArr} margin={8}>
+                {item => <Category {...item} key={item.id} />}
+            </ViewportList>
+        </ul>
+    );
+};
 
-  const [rootCategories, setRootCategories] = useState<CategoriesType>();
-  
-  const childrenState = useAppSelector(state => state.categoriesChildren)
-  const categoriesState = useAppSelector(state => state.categories)
-  //console.log(categoriesState)
-  
-  const rootCategoriesArr = getRootCategories(childrenState, categoriesState)
-
-  useEffect(() => {
-    //setRootCategories(rootCategoriesArr)
-  },[])
- 
-  return (
-    <>
-     <ul>
-        {rootCategoriesArr && rootCategoriesArr.map((rootCategory: CategoryType ) => <Category {...rootCategory} />)}
-      </ul>
-  </>
-  
-  );
-}
-
-export default CategoriesTree
+export default CategoriesTree;

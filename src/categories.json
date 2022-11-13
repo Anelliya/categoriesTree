@@ -1,694 +1,2142 @@
 [
-  {
-    "id": "63641e32013142f1ed06c6b3",
-    "name": "Rivers Roy",
-    "children": [
-      {
-        "id": "63641e320f2fe85394edf3bc",
-        "name": "Rivas Baldwin",
-        "children": [
-          {
-            "id": "63641e3265f5fb5b272a2935",
-            "name": "Tonya Kelley",
-            "children": [
-              {
-                "id": "63641e32f55e911bc1b23b2a",
-                "name": "Thomas Finch",
-                "children": [
-                  {
-                    "id": "63641e32bb89a0cd125bbf35",
-                    "name": "Christa Barton",
-                    "children": [
-                      {
-                        "id": "63641e3211871dcd339e606a",
-                        "name": "Lynda Barry",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e323fd33fe3b74f4bb1",
-                        "name": "Glenda Brennan",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": "63641e3265fd21297f82caa0",
-                    "name": "Day Gregory",
-                    "children": [
-                      {
-                        "id": "63641e329b7dd46e29000dc5",
-                        "name": "Lancaster Green",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e320c0dd884bff95817",
-                        "name": "Carly Case",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "id": "63641e32b5029114ee1d1574",
-                "name": "Valenzuela Knowles",
-                "children": [
-                  {
-                    "id": "63641e325873a15973f7123c",
-                    "name": "Sweeney Mccall",
-                    "children": [
-                      {
-                        "id": "63641e3248f0c7da1f709b94",
-                        "name": "Wilma Nguyen",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e32855cf8f289fa477e",
-                        "name": "Gertrude Hull",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": "63641e32e23d326b05771d8b",
-                    "name": "Beasley Shields",
-                    "children": [
-                      {
-                        "id": "63641e32fd35547ecfdcc205",
-                        "name": "Maxwell Dodson",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e324cb842396ca8723b",
-                        "name": "Mooney Hamilton",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "63641e32885ffb23172407fa",
-            "name": "Mcneil Gutierrez",
-            "children": [
-              {
-                "id": "63641e323c2798460acc3782",
-                "name": "Enid Trujillo",
-                "children": [
-                  {
-                    "id": "63641e324274c05be5488422",
-                    "name": "Rios Roman",
-                    "children": [
-                      {
-                        "id": "63641e320156fc509c8267cc",
-                        "name": "Alfreda Kirby",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e328b05fa411e5ce792",
-                        "name": "Savage Bush",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": "63641e32693b7896a554b1f1",
-                    "name": "Cynthia Sears",
-                    "children": [
-                      {
-                        "id": "63641e3244708364a40be66e",
-                        "name": "Claudia Gill",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e324e484498bba1aa35",
-                        "name": "Clayton Horn",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "id": "63641e32668faa35205b5c1a",
-                "name": "Margaret Phelps",
-                "children": [
-                  {
-                    "id": "63641e32bea6941382fadbb5",
-                    "name": "Carrie Oliver",
-                    "children": [
-                      {
-                        "id": "63641e32441d3e3659f9f179",
-                        "name": "Fernandez Cote",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e322d8b69260e8bdf9e",
-                        "name": "Cochran Miranda",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": "63641e32a4bef82f74c1d335",
-                    "name": "Lynne Drake",
-                    "children": [
-                      {
-                        "id": "63641e32b7c1b71214f9711c",
-                        "name": "Elvira Lang",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e326cecc6eec27f1402",
-                        "name": "Kim Camacho",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "63641e32852e2b3000da36b7",
-        "name": "Mccall Ortiz",
-        "children": [
-          {
-            "id": "63641e324df32c65fd0a9a9e",
-            "name": "Petersen Melendez",
-            "children": [
-              {
-                "id": "63641e3202e0047cdc38f985",
-                "name": "Twila Good",
-                "children": [
-                  {
-                    "id": "63641e32eae076acdeed8e32",
-                    "name": "Connie Bright",
-                    "children": [
-                      {
-                        "id": "63641e3203d72e06728d339b",
-                        "name": "Helene Sanford",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e322ef889223bc0f89d",
-                        "name": "Holcomb Jefferson",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": "63641e325808fecdde76bb4c",
-                    "name": "Dennis Gross",
-                    "children": [
-                      {
-                        "id": "63641e3232eac4782facfdb6",
-                        "name": "Humphrey Pollard",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e32b86d4d253423f6fb",
-                        "name": "Margarita Witt",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "id": "63641e32befc1dcc40bda8ea",
-                "name": "Loraine Hopkins",
-                "children": [
-                  {
-                    "id": "63641e32d2c9977af9c858a9",
-                    "name": "Schultz Callahan",
-                    "children": [
-                      {
-                        "id": "63641e320ee67db958afdec6",
-                        "name": "Lina Christian",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e32c30feda85dcd5b2d",
-                        "name": "Lawson Martin",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": "63641e325b17101afe5bd24e",
-                    "name": "Terrie Moss",
-                    "children": [
-                      {
-                        "id": "63641e3233f17bc50ba7158b",
-                        "name": "Jenna Knight",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e3238cdacdf3b0c62c3",
-                        "name": "Quinn Wilkins",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "63641e32cd691e204e6473f2",
-            "name": "Joni Phillips",
-            "children": [
-              {
-                "id": "63641e3204af0a0b6eb0ef14",
-                "name": "Lauri Robinson",
-                "children": [
-                  {
-                    "id": "63641e32c5f5f226f6ae8c2c",
-                    "name": "Eaton Lester",
-                    "children": [
-                      {
-                        "id": "63641e32db22fbd6c994c8b4",
-                        "name": "Mcconnell Tanner",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e3206a92c0a5d4f0484",
-                        "name": "Sears Oneill",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": "63641e321728129d2bfb383c",
-                    "name": "Bonita Marsh",
-                    "children": [
-                      {
-                        "id": "63641e32116295779fafaa83",
-                        "name": "Blackwell Durham",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e326c1ee9556857888c",
-                        "name": "Meagan Ayers",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "id": "63641e325921dc0f1f94544d",
-                "name": "Ester Silva",
-                "children": [
-                  {
-                    "id": "63641e321ea9b0080b8f2f1f",
-                    "name": "Kramer Winters",
-                    "children": [
-                      {
-                        "id": "63641e32ab3d339b459941c8",
-                        "name": "Horn Craft",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e32032d13a255daf252",
-                        "name": "Elba Shelton",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": "63641e32f50c3e4e9b4c2483",
-                    "name": "Lillie Allison",
-                    "children": [
-                      {
-                        "id": "63641e32d179403a2e4efe9d",
-                        "name": "Bowen Frost",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e32c97d03819b06952c",
-                        "name": "Dana Berger",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "63641e32216656e4ebe469bb",
-    "name": "Deirdre Gilbert",
-    "children": [
-      {
-        "id": "63641e32073ccfce6ac12840",
-        "name": "Lesley Coffey",
-        "children": [
-          {
-            "id": "63641e32413fc26e8bfbdace",
-            "name": "Allie Black",
-            "children": [
-              {
-                "id": "63641e328367e12173729482",
-                "name": "Winnie Simon",
-                "children": [
-                  {
-                    "id": "63641e324ef13688db473f74",
-                    "name": "Milagros Gordon",
-                    "children": [
-                      {
-                        "id": "63641e32a5acb4b330c8b458",
-                        "name": "Alyce Walker",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e32c717e92618d9154b",
-                        "name": "Murphy Nash",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": "63641e32f467beecf600d37f",
-                    "name": "Molly Stuart",
-                    "children": [
-                      {
-                        "id": "63641e32ab9b5503a0f404dd",
-                        "name": "Sandy Becker",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e32e53401a106f10e30",
-                        "name": "Alexandria Hewitt",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "id": "63641e32d19896cb94921b63",
-                "name": "Reva Parks",
-                "children": [
-                  {
-                    "id": "63641e3275626d53d681ba80",
-                    "name": "Cervantes Velazquez",
-                    "children": [
-                      {
-                        "id": "63641e327aac51f695f20e06",
-                        "name": "Gail Frederick",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e32bfe3d2c73a751721",
-                        "name": "Billie Mcfadden",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": "63641e327e3b907de7c900b6",
-                    "name": "Cruz Welch",
-                    "children": [
-                      {
-                        "id": "63641e32c468fc3b88008ed3",
-                        "name": "Jewel Wells",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e327936fe8dab98b84d",
-                        "name": "Richardson Stokes",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "63641e323e617dd7310d1826",
-            "name": "Beverly Stanley",
-            "children": [
-              {
-                "id": "63641e3270a49629ac1621cc",
-                "name": "Mathews Huff",
-                "children": [
-                  {
-                    "id": "63641e3257640360398a1a7f",
-                    "name": "Charmaine Cooke",
-                    "children": [
-                      {
-                        "id": "63641e325379a95b883246bc",
-                        "name": "Rosario Puckett",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e32a27f68b476be9dc7",
-                        "name": "Stuart Austin",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": "63641e3272400a0fb16cbb61",
-                    "name": "Ginger Leblanc",
-                    "children": [
-                      {
-                        "id": "63641e32b822e118b1b8859c",
-                        "name": "Juliana Cain",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e324a9704b91b738a78",
-                        "name": "Aguilar Roth",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "id": "63641e3281f042a0701324ad",
-                "name": "Bridges Daniels",
-                "children": [
-                  {
-                    "id": "63641e325c95b1b8439ab541",
-                    "name": "Compton Farmer",
-                    "children": [
-                      {
-                        "id": "63641e32d19afffcb6f9a4f0",
-                        "name": "Collier Ryan",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e32ec383687b1f5efbf",
-                        "name": "Bolton Davenport",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": "63641e3221d7a5245875ba0b",
-                    "name": "Myrtle Underwood",
-                    "children": [
-                      {
-                        "id": "63641e321a4b66cca6086080",
-                        "name": "Sandoval Reilly",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e325005ba12fadf1dbc",
-                        "name": "Deann Boyle",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "63641e32cb7d879d9fb0f09e",
-        "name": "Olga Morin",
-        "children": [
-          {
-            "id": "63641e329ebf969c60ebd44d",
-            "name": "Tia Kennedy",
-            "children": [
-              {
-                "id": "63641e32ebc15020866b09f2",
-                "name": "Ayers Lane",
-                "children": [
-                  {
-                    "id": "63641e324a8288f029060732",
-                    "name": "Freeman Hart",
-                    "children": [
-                      {
-                        "id": "63641e325959dfd8133b8cfe",
-                        "name": "Kathrine Murphy",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e32a8ab820878918c86",
-                        "name": "Casandra Greer",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": "63641e3265d4d6f45767e713",
-                    "name": "Alana Mayo",
-                    "children": [
-                      {
-                        "id": "63641e32823208499a7dd69f",
-                        "name": "Dale Solomon",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e3224b0b85c83340e31",
-                        "name": "Nora Gay",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "id": "63641e32cff8142b4845288a",
-                "name": "Armstrong Gomez",
-                "children": [
-                  {
-                    "id": "63641e32b8c6d5c080dad6d7",
-                    "name": "Joann Maynard",
-                    "children": [
-                      {
-                        "id": "63641e32cee235d9c7a056ea",
-                        "name": "Christian Slater",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e32a057e99df84dbce4",
-                        "name": "Amie Beasley",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": "63641e3207b0c8458e7b2abd",
-                    "name": "Higgins Watson",
-                    "children": [
-                      {
-                        "id": "63641e32aee0f5dcada4f4a5",
-                        "name": "Pearlie Alston",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e32ba4a4defd0b3381f",
-                        "name": "Eunice Frazier",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "63641e3274d499939391332a",
-            "name": "Tasha Roberson",
-            "children": [
-              {
-                "id": "63641e32a22e2b99cc772af9",
-                "name": "Sharlene Valentine",
-                "children": [
-                  {
-                    "id": "63641e32550cae2d6fcc3a2d",
-                    "name": "Bray Mullins",
-                    "children": [
-                      {
-                        "id": "63641e32b217ea01248497f8",
-                        "name": "Sanchez Wheeler",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e3263f4b1bf03f25c85",
-                        "name": "Cleo Clemons",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": "63641e3264e19277bc2f70a0",
-                    "name": "Henderson Townsend",
-                    "children": [
-                      {
-                        "id": "63641e32c3b21aab00a84756",
-                        "name": "May Jackson",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e327118b19e4b4e6b7e",
-                        "name": "Mcgowan Patrick",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "id": "63641e3224ff7a041da4e72f",
-                "name": "Larson Watkins",
-                "children": [
-                  {
-                    "id": "63641e324aed79db2fecbea8",
-                    "name": "Hoover Hobbs",
-                    "children": [
-                      {
-                        "id": "63641e327cb1129642423877",
-                        "name": "Madeleine Buchanan",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e32ff490b7527f52a58",
-                        "name": "Juliette Hinton",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": "63641e3206d33d0365b67ed4",
-                    "name": "Jeannine Williams",
-                    "children": [
-                      {
-                        "id": "63641e3227222e8eddfea2f6",
-                        "name": "Adela Wise",
-                        "children": []
-                      },
-                      {
-                        "id": "63641e32f63a43acbc3cd3fd",
-                        "name": "Gross Mccarthy",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+    {
+        "id": "879a7b84-f9b0-49a3-8f25-624fb7454ddc",
+        "name": "Plumbing & Medical Gas",
+        "parentId": null
+    },
+    {
+        "id": "b51aca43-0b7f-4b54-a02e-baf2436a9a10",
+        "name": "Framing (Steel)",
+        "parentId": "879a7b84-f9b0-49a3-8f25-624fb7454ddc"
+    },
+    {
+        "id": "468f1cc8-a7c4-4bff-b74b-12819854354b",
+        "name": "Landscaping & Irrigation",
+        "parentId": "b51aca43-0b7f-4b54-a02e-baf2436a9a10"
+    },
+    {
+        "id": "0c42db52-5f3d-4877-98ed-589748ad06ed",
+        "name": "HVAC",
+        "parentId": "b51aca43-0b7f-4b54-a02e-baf2436a9a10"
+    },
+    {
+        "id": "ad37c9c4-5d17-4fb6-953c-dbe24e799388",
+        "name": "Drilled Shafts",
+        "parentId": "b51aca43-0b7f-4b54-a02e-baf2436a9a10"
+    },
+    {
+        "id": "d0cd2be7-ef10-4f54-8a19-77b0b3142033",
+        "name": "Structural and Misc Steel (Fabrication)",
+        "parentId": "b51aca43-0b7f-4b54-a02e-baf2436a9a10"
+    },
+    {
+        "id": "d07c5c8f-ccce-4abf-9f34-c88242009dea",
+        "name": "Soft Flooring and Base",
+        "parentId": "b51aca43-0b7f-4b54-a02e-baf2436a9a10"
+    },
+    {
+        "id": "e5131bdd-4d95-4b88-b879-19fcc2d380c7",
+        "name": "Soft Flooring and Base",
+        "parentId": "b51aca43-0b7f-4b54-a02e-baf2436a9a10"
+    },
+    {
+        "id": "cf221804-d45c-4f63-9634-aa21f29980f4",
+        "name": "Doors, Frames & Hardware",
+        "parentId": "b51aca43-0b7f-4b54-a02e-baf2436a9a10"
+    },
+    {
+        "id": "daf910cd-bd9e-4d28-9cc6-bb49289c6bd6",
+        "name": "Temp Fencing, Decorative Fencing and Gates",
+        "parentId": "b51aca43-0b7f-4b54-a02e-baf2436a9a10"
+    },
+    {
+        "id": "37b369e5-6813-4717-8f49-a2f810d808b6",
+        "name": "Framing (Wood)",
+        "parentId": "879a7b84-f9b0-49a3-8f25-624fb7454ddc"
+    },
+    {
+        "id": "b99c9299-a585-4de0-8273-174d6b063edb",
+        "name": "RF Shielding",
+        "parentId": "37b369e5-6813-4717-8f49-a2f810d808b6"
+    },
+    {
+        "id": "5a91ff4b-7af5-4cb8-b5e5-bfb5b7d5088d",
+        "name": "Doors, Frames & Hardware",
+        "parentId": "37b369e5-6813-4717-8f49-a2f810d808b6"
+    },
+    {
+        "id": "0498d72a-ba48-44c1-a3b2-a78c437d5ef1",
+        "name": "Electrical",
+        "parentId": "37b369e5-6813-4717-8f49-a2f810d808b6"
+    },
+    {
+        "id": "b295a8cb-0986-49fe-a879-52edee9b43a4",
+        "name": "Plumbing & Medical Gas",
+        "parentId": "37b369e5-6813-4717-8f49-a2f810d808b6"
+    },
+    {
+        "id": "efb726aa-3305-479b-a0b7-5b3202ed270b",
+        "name": "Framing (Wood)",
+        "parentId": "37b369e5-6813-4717-8f49-a2f810d808b6"
+    },
+    {
+        "id": "912070a8-32d8-4316-bd3f-e1c9be998cde",
+        "name": "Doors, Frames & Hardware",
+        "parentId": "37b369e5-6813-4717-8f49-a2f810d808b6"
+    },
+    {
+        "id": "6d1aabc2-5b95-4c90-a8ed-c0a52514c085",
+        "name": "Ornamental Railings",
+        "parentId": "37b369e5-6813-4717-8f49-a2f810d808b6"
+    },
+    {
+        "id": "56a86dce-7a8f-44cf-bd35-8aaf9c91dfac",
+        "name": "Fire Sprinkler System",
+        "parentId": "37b369e5-6813-4717-8f49-a2f810d808b6"
+    },
+    {
+        "id": "ea5b2e58-9486-451e-a5e2-c69929cd6bec",
+        "name": "Landscaping & Irrigation",
+        "parentId": "37b369e5-6813-4717-8f49-a2f810d808b6"
+    },
+    {
+        "id": "f9debf52-9cdf-4ae8-90f3-12ef0baaa3de",
+        "name": "Casework",
+        "parentId": "37b369e5-6813-4717-8f49-a2f810d808b6"
+    },
+    {
+        "id": "013d994c-6258-45a1-9840-4ba44ba9f990",
+        "name": "Roofing (Asphalt)",
+        "parentId": "879a7b84-f9b0-49a3-8f25-624fb7454ddc"
+    },
+    {
+        "id": "10e426c8-cadb-4588-846f-bf9d8f9c93a0",
+        "name": "RF Shielding",
+        "parentId": "013d994c-6258-45a1-9840-4ba44ba9f990"
+    },
+    {
+        "id": "6d449ef8-8057-4c30-81c8-4aa88366e15a",
+        "name": "Structural & Misc Steel Erection",
+        "parentId": "013d994c-6258-45a1-9840-4ba44ba9f990"
+    },
+    {
+        "id": "79a55329-bae6-4bd4-8e7b-b09412e5e120",
+        "name": "Fire Sprinkler System",
+        "parentId": "013d994c-6258-45a1-9840-4ba44ba9f990"
+    },
+    {
+        "id": "d2f7b408-968f-4eec-9c0e-acc78e1510eb",
+        "name": "Casework",
+        "parentId": "013d994c-6258-45a1-9840-4ba44ba9f990"
+    },
+    {
+        "id": "35151ebd-387e-47c6-aa33-db68bc02935a",
+        "name": "Rebar & Wire Mesh Install",
+        "parentId": "013d994c-6258-45a1-9840-4ba44ba9f990"
+    },
+    {
+        "id": "d9c623a6-f147-4794-8891-84490acd7d35",
+        "name": "Fire Sprinkler System",
+        "parentId": "013d994c-6258-45a1-9840-4ba44ba9f990"
+    },
+    {
+        "id": "2a1dec3d-a1fa-4602-b8ef-cdd1d410074e",
+        "name": "Curb & Gutter",
+        "parentId": "013d994c-6258-45a1-9840-4ba44ba9f990"
+    },
+    {
+        "id": "ce32088f-351a-43c2-97d3-86c246b239dc",
+        "name": "Framing (Steel)",
+        "parentId": "013d994c-6258-45a1-9840-4ba44ba9f990"
+    },
+    {
+        "id": "8cda8ede-1d38-49d4-ac8c-d51a84df657e",
+        "name": "Termite Control",
+        "parentId": "013d994c-6258-45a1-9840-4ba44ba9f990"
+    },
+    {
+        "id": "3f3ef2fb-01b8-427a-bc0c-f241122b7626",
+        "name": "Asphalt Paving",
+        "parentId": "013d994c-6258-45a1-9840-4ba44ba9f990"
+    },
+    {
+        "id": "364a225f-a3c4-4abb-a10d-0105d8ce3f8e",
+        "name": "Structural and Misc Steel (Fabrication)",
+        "parentId": "879a7b84-f9b0-49a3-8f25-624fb7454ddc"
+    },
+    {
+        "id": "15b740e3-41bb-478c-af62-cad49b842cc2",
+        "name": "Fire Protection",
+        "parentId": "364a225f-a3c4-4abb-a10d-0105d8ce3f8e"
+    },
+    {
+        "id": "3996f60c-33df-48bf-a289-367b74b48574",
+        "name": "Retaining Wall and Brick Pavers",
+        "parentId": "364a225f-a3c4-4abb-a10d-0105d8ce3f8e"
+    },
+    {
+        "id": "d2d9b034-3c8b-4bda-a650-6fe745ecbac9",
+        "name": "Framing (Wood)",
+        "parentId": "364a225f-a3c4-4abb-a10d-0105d8ce3f8e"
+    },
+    {
+        "id": "db528f2d-7936-4198-98c6-c99347f79e38",
+        "name": "RF Shielding",
+        "parentId": "364a225f-a3c4-4abb-a10d-0105d8ce3f8e"
+    },
+    {
+        "id": "0bfaa9e3-a223-4e49-93a1-90c3e577dbe6",
+        "name": "Rebar & Wire Mesh Install",
+        "parentId": "364a225f-a3c4-4abb-a10d-0105d8ce3f8e"
+    },
+    {
+        "id": "f7de423a-3ab7-4f89-8cd4-1bb583bf7f34",
+        "name": "Electrical and Fire Alarm",
+        "parentId": "364a225f-a3c4-4abb-a10d-0105d8ce3f8e"
+    },
+    {
+        "id": "aa53e160-57a7-44d0-ad91-8367f4203ea6",
+        "name": "Glass & Glazing",
+        "parentId": "364a225f-a3c4-4abb-a10d-0105d8ce3f8e"
+    },
+    {
+        "id": "493c5543-7ccb-476c-812e-649cd44f4be5",
+        "name": "Landscaping & Irrigation",
+        "parentId": "364a225f-a3c4-4abb-a10d-0105d8ce3f8e"
+    },
+    {
+        "id": "a3ccccd1-2126-4cd1-99c8-c222244531dd",
+        "name": "Overhead Doors",
+        "parentId": "879a7b84-f9b0-49a3-8f25-624fb7454ddc"
+    },
+    {
+        "id": "2b7f653f-4c14-485b-b422-376bdf983260",
+        "name": "Drilled Shafts",
+        "parentId": "a3ccccd1-2126-4cd1-99c8-c222244531dd"
+    },
+    {
+        "id": "52684a5a-ed4e-4074-9f3e-c40b3dee67f6",
+        "name": "Prefabricated Aluminum Metal Canopies",
+        "parentId": "a3ccccd1-2126-4cd1-99c8-c222244531dd"
+    },
+    {
+        "id": "06ab073e-f1bf-4d48-8667-70af6bfacf87",
+        "name": "Painting & Vinyl Wall Covering",
+        "parentId": "a3ccccd1-2126-4cd1-99c8-c222244531dd"
+    },
+    {
+        "id": "e90dd808-044e-4864-a195-fda7fc8fd563",
+        "name": "Site Furnishings",
+        "parentId": "a3ccccd1-2126-4cd1-99c8-c222244531dd"
+    },
+    {
+        "id": "6073ce87-2f08-4027-81ec-6a9aa1c90a06",
+        "name": "Rebar & Wire Mesh Install",
+        "parentId": "a3ccccd1-2126-4cd1-99c8-c222244531dd"
+    },
+    {
+        "id": "ca2f84b4-6538-43f0-9429-c527abc5e3c4",
+        "name": "Wall Protection",
+        "parentId": null
+    },
+    {
+        "id": "ea72cc4f-2624-48db-8f85-ad2ad5f2cc32",
+        "name": "Curb & Gutter",
+        "parentId": "ca2f84b4-6538-43f0-9429-c527abc5e3c4"
+    },
+    {
+        "id": "0283ea61-cb9e-4846-a391-65bbd02c549b",
+        "name": "Soft Flooring and Base",
+        "parentId": "ea72cc4f-2624-48db-8f85-ad2ad5f2cc32"
+    },
+    {
+        "id": "85da4bc0-cc71-46be-9df2-e2c8cb9ad8b5",
+        "name": "Epoxy Flooring",
+        "parentId": "ea72cc4f-2624-48db-8f85-ad2ad5f2cc32"
+    },
+    {
+        "id": "c0239dec-06cc-4f91-8422-de8b416d7cc3",
+        "name": "RF Shielding",
+        "parentId": "ea72cc4f-2624-48db-8f85-ad2ad5f2cc32"
+    },
+    {
+        "id": "fa2eca1a-839c-484e-9272-1deed77dce84",
+        "name": "Roofing (Asphalt)",
+        "parentId": "ea72cc4f-2624-48db-8f85-ad2ad5f2cc32"
+    },
+    {
+        "id": "f6968793-eb13-4aff-95ab-60b705b77a01",
+        "name": "Rebar & Wire Mesh Install",
+        "parentId": "ea72cc4f-2624-48db-8f85-ad2ad5f2cc32"
+    },
+    {
+        "id": "024eb1b0-1c16-4019-955d-37cef8995252",
+        "name": "Masonry",
+        "parentId": "ea72cc4f-2624-48db-8f85-ad2ad5f2cc32"
+    },
+    {
+        "id": "bf0994dc-5f07-4d8e-b907-422469ed9123",
+        "name": "Masonry",
+        "parentId": "ea72cc4f-2624-48db-8f85-ad2ad5f2cc32"
+    },
+    {
+        "id": "b7e52030-2d7e-45a5-82cc-5f78dc7a11bb",
+        "name": "Drywall & Acoustical (MOB)",
+        "parentId": "ea72cc4f-2624-48db-8f85-ad2ad5f2cc32"
+    },
+    {
+        "id": "19d6a600-3754-406f-b288-c19b36e658bb",
+        "name": "Temp Fencing, Decorative Fencing and Gates",
+        "parentId": "ea72cc4f-2624-48db-8f85-ad2ad5f2cc32"
+    },
+    {
+        "id": "184816fb-04ae-4a03-a83b-59f40403e7bb",
+        "name": "Retaining Wall and Brick Pavers",
+        "parentId": "ea72cc4f-2624-48db-8f85-ad2ad5f2cc32"
+    },
+    {
+        "id": "01680c20-c6cd-4486-91f6-08beee72dbcf",
+        "name": "Roofing (Asphalt)",
+        "parentId": "ca2f84b4-6538-43f0-9429-c527abc5e3c4"
+    },
+    {
+        "id": "355086a3-f1ef-48cf-849c-d3fbf3a5eeba",
+        "name": "Electrical and Fire Alarm",
+        "parentId": "01680c20-c6cd-4486-91f6-08beee72dbcf"
+    },
+    {
+        "id": "d325745d-80ce-4a1a-88b0-148bff4449a0",
+        "name": "Painting & Vinyl Wall Covering",
+        "parentId": "01680c20-c6cd-4486-91f6-08beee72dbcf"
+    },
+    {
+        "id": "84266600-dc4f-4ca9-96a2-88786cb16530",
+        "name": "EIFS",
+        "parentId": "01680c20-c6cd-4486-91f6-08beee72dbcf"
+    },
+    {
+        "id": "38a0de0f-262d-4bf4-91b6-f1c6c42e5d4f",
+        "name": "Elevator",
+        "parentId": "01680c20-c6cd-4486-91f6-08beee72dbcf"
+    },
+    {
+        "id": "dec16a47-f7b5-48c1-83a6-73265b9b527a",
+        "name": "Drywall & Acoustical (MOB)",
+        "parentId": "01680c20-c6cd-4486-91f6-08beee72dbcf"
+    },
+    {
+        "id": "fdec6574-9d73-44c3-aa5e-fa80d0b33905",
+        "name": "Roofing (Metal)",
+        "parentId": "01680c20-c6cd-4486-91f6-08beee72dbcf"
+    },
+    {
+        "id": "b46311bc-5eb1-471e-9331-e7b2ad46fe46",
+        "name": "Masonry",
+        "parentId": "01680c20-c6cd-4486-91f6-08beee72dbcf"
+    },
+    {
+        "id": "028b1550-04c0-4da4-8598-f9e000e269f0",
+        "name": "Curb & Gutter",
+        "parentId": "01680c20-c6cd-4486-91f6-08beee72dbcf"
+    },
+    {
+        "id": "076cf1a2-5320-4d2c-b66f-1bf2b2ee947b",
+        "name": "Sitework & Site Utilities",
+        "parentId": "01680c20-c6cd-4486-91f6-08beee72dbcf"
+    },
+    {
+        "id": "86dccb26-6e7b-409c-9444-b319cbdba4f0",
+        "name": "RF Shielding",
+        "parentId": "ca2f84b4-6538-43f0-9429-c527abc5e3c4"
+    },
+    {
+        "id": "109ded1e-31bc-47ba-a8cc-3d013bd03586",
+        "name": "Masonry",
+        "parentId": "86dccb26-6e7b-409c-9444-b319cbdba4f0"
+    },
+    {
+        "id": "acc6747c-2dc0-43d2-b127-e3d141aa2d48",
+        "name": "RF Shielding",
+        "parentId": "86dccb26-6e7b-409c-9444-b319cbdba4f0"
+    },
+    {
+        "id": "dd43a2c6-b01e-444c-b024-51fab585ad05",
+        "name": "Sitework & Site Utilities",
+        "parentId": "86dccb26-6e7b-409c-9444-b319cbdba4f0"
+    },
+    {
+        "id": "2c5cdc1b-6b9a-4e82-95c2-910b0871d542",
+        "name": "Waterproofing & Caulking",
+        "parentId": "86dccb26-6e7b-409c-9444-b319cbdba4f0"
+    },
+    {
+        "id": "1031e39f-7166-4d98-856b-a494337f65f5",
+        "name": "Landscaping & Irrigation",
+        "parentId": "86dccb26-6e7b-409c-9444-b319cbdba4f0"
+    },
+    {
+        "id": "67339026-66d4-494f-a240-20b3e5f82860",
+        "name": "RF Shielding",
+        "parentId": "86dccb26-6e7b-409c-9444-b319cbdba4f0"
+    },
+    {
+        "id": "6437dab6-a7c1-4e2c-9119-1001bded2b09",
+        "name": "EIFS",
+        "parentId": "86dccb26-6e7b-409c-9444-b319cbdba4f0"
+    },
+    {
+        "id": "68adb9bf-b061-4ee9-aed3-518e06f14061",
+        "name": "Masonry & Precast",
+        "parentId": "86dccb26-6e7b-409c-9444-b319cbdba4f0"
+    },
+    {
+        "id": "0c910491-5bea-4eba-8b75-36776e9fe1cf",
+        "name": "Electrical",
+        "parentId": "86dccb26-6e7b-409c-9444-b319cbdba4f0"
+    },
+    {
+        "id": "551d7dab-36df-47a3-bdd2-9640dca044c3",
+        "name": "Wall Protection",
+        "parentId": "86dccb26-6e7b-409c-9444-b319cbdba4f0"
+    },
+    {
+        "id": "89e43c2d-ed34-4863-a61b-f0fcf9da5d62",
+        "name": "Glass & Glazing",
+        "parentId": "ca2f84b4-6538-43f0-9429-c527abc5e3c4"
+    },
+    {
+        "id": "ad0b4e61-b94f-48e7-b053-b03318a94a33",
+        "name": "Marlite Panels (FED)",
+        "parentId": "89e43c2d-ed34-4863-a61b-f0fcf9da5d62"
+    },
+    {
+        "id": "108d983a-39f7-428a-bbb4-0555e18971bc",
+        "name": "Structural & Misc Steel Erection",
+        "parentId": "89e43c2d-ed34-4863-a61b-f0fcf9da5d62"
+    },
+    {
+        "id": "43b048fc-7f16-4f65-b4b4-355e827a4afd",
+        "name": "Drywall & Acoustical (FED)",
+        "parentId": "89e43c2d-ed34-4863-a61b-f0fcf9da5d62"
+    },
+    {
+        "id": "62105897-b4de-4de4-b538-eef1cd0d43c1",
+        "name": "Structural & Misc Steel Erection",
+        "parentId": "89e43c2d-ed34-4863-a61b-f0fcf9da5d62"
+    },
+    {
+        "id": "b2aa80f2-7904-40e1-a376-e057a916a7ef",
+        "name": "Epoxy Flooring",
+        "parentId": "89e43c2d-ed34-4863-a61b-f0fcf9da5d62"
+    },
+    {
+        "id": "4bc2e11a-9be7-42f3-966c-d8acf6671d4b",
+        "name": "Curb & Gutter",
+        "parentId": "89e43c2d-ed34-4863-a61b-f0fcf9da5d62"
+    },
+    {
+        "id": "ccd54bcc-5c80-4b85-8185-74314005a59a",
+        "name": "Painting & Vinyl Wall Covering",
+        "parentId": "89e43c2d-ed34-4863-a61b-f0fcf9da5d62"
+    },
+    {
+        "id": "ccec736f-3a34-4363-9cab-05c5a29473c9",
+        "name": "Termite Control",
+        "parentId": "89e43c2d-ed34-4863-a61b-f0fcf9da5d62"
+    },
+    {
+        "id": "b275270d-cde0-400e-a2d2-83eba75946bf",
+        "name": "Casework",
+        "parentId": "ca2f84b4-6538-43f0-9429-c527abc5e3c4"
+    },
+    {
+        "id": "8a94ca94-bcd3-497f-8853-d89152871ed7",
+        "name": "Rebar & Wire Mesh Install",
+        "parentId": "b275270d-cde0-400e-a2d2-83eba75946bf"
+    },
+    {
+        "id": "37437a42-2b77-44eb-9d4f-00348679521d",
+        "name": "Marlite Panels (FED)",
+        "parentId": "b275270d-cde0-400e-a2d2-83eba75946bf"
+    },
+    {
+        "id": "f81c7228-7d0a-4be0-97a1-30835d308a16",
+        "name": "Roofing (Asphalt)",
+        "parentId": "b275270d-cde0-400e-a2d2-83eba75946bf"
+    },
+    {
+        "id": "0435b014-f50c-4fbf-b603-97c622d1d2d1",
+        "name": "Fire Protection",
+        "parentId": "b275270d-cde0-400e-a2d2-83eba75946bf"
+    },
+    {
+        "id": "ab6153eb-1f96-4bb1-8bc6-7fc6f52d3c8e",
+        "name": "Drilled Shafts",
+        "parentId": "b275270d-cde0-400e-a2d2-83eba75946bf"
+    },
+    {
+        "id": "4cbe4631-5059-4347-9c78-65f934e6b964",
+        "name": "Marlite Panels (FED)",
+        "parentId": null
+    },
+    {
+        "id": "1deae439-4a37-4d33-8f5d-5a28d7984b8f",
+        "name": "Asphalt Paving",
+        "parentId": "4cbe4631-5059-4347-9c78-65f934e6b964"
+    },
+    {
+        "id": "fa803ec0-19d6-4a5e-8695-23315e548336",
+        "name": "Electrical",
+        "parentId": "1deae439-4a37-4d33-8f5d-5a28d7984b8f"
+    },
+    {
+        "id": "367dfff1-d390-4e96-b9a3-758b92cc0de7",
+        "name": "Site Furnishings",
+        "parentId": "1deae439-4a37-4d33-8f5d-5a28d7984b8f"
+    },
+    {
+        "id": "b7d49e62-d116-4a10-83b7-706a85d285f4",
+        "name": "Curb & Gutter",
+        "parentId": "1deae439-4a37-4d33-8f5d-5a28d7984b8f"
+    },
+    {
+        "id": "af474543-e30f-41c3-9497-239b8a9ee4b6",
+        "name": "Electrical and Fire Alarm",
+        "parentId": "1deae439-4a37-4d33-8f5d-5a28d7984b8f"
+    },
+    {
+        "id": "47303792-3c19-498a-acf0-09251efead42",
+        "name": "Soft Flooring and Base",
+        "parentId": "1deae439-4a37-4d33-8f5d-5a28d7984b8f"
+    },
+    {
+        "id": "0df02fdf-6826-4adf-a075-f0e04dd1f141",
+        "name": "Overhead Doors",
+        "parentId": "1deae439-4a37-4d33-8f5d-5a28d7984b8f"
+    },
+    {
+        "id": "d6c238a0-9dc1-432f-8169-e6e18404e895",
+        "name": "Glass & Glazing",
+        "parentId": "1deae439-4a37-4d33-8f5d-5a28d7984b8f"
+    },
+    {
+        "id": "0c591dcc-0c83-489b-ac1e-e496172d97ac",
+        "name": "Rebar & Wire Mesh Install",
+        "parentId": "4cbe4631-5059-4347-9c78-65f934e6b964"
+    },
+    {
+        "id": "89cc0c53-13e5-4650-aabd-a7dc0b529cb6",
+        "name": "Structural and Misc Steel (Fabrication)",
+        "parentId": "0c591dcc-0c83-489b-ac1e-e496172d97ac"
+    },
+    {
+        "id": "2da1618c-5db6-435c-888a-e3166b0cc681",
+        "name": "Termite Control",
+        "parentId": "0c591dcc-0c83-489b-ac1e-e496172d97ac"
+    },
+    {
+        "id": "be9a11a4-218c-4b7e-82ca-a948c95992e8",
+        "name": "Temp Fencing, Decorative Fencing and Gates",
+        "parentId": "0c591dcc-0c83-489b-ac1e-e496172d97ac"
+    },
+    {
+        "id": "d8ab26ed-24e7-47c8-8d04-14a68b02bc70",
+        "name": "Roofing (Metal)",
+        "parentId": "0c591dcc-0c83-489b-ac1e-e496172d97ac"
+    },
+    {
+        "id": "9c4ba35d-1829-4a36-b2b3-96cc8a07d710",
+        "name": "Ornamental Railings",
+        "parentId": "0c591dcc-0c83-489b-ac1e-e496172d97ac"
+    },
+    {
+        "id": "dbeb0206-20d9-44e9-bfdd-eb0e4f5b4c16",
+        "name": "Framing (Wood)",
+        "parentId": "0c591dcc-0c83-489b-ac1e-e496172d97ac"
+    },
+    {
+        "id": "8f77a13b-ed07-4570-8347-7fb85ece610a",
+        "name": "Elevator",
+        "parentId": "4cbe4631-5059-4347-9c78-65f934e6b964"
+    },
+    {
+        "id": "7a974f98-8ab9-4db6-87ed-69dd0f57e91a",
+        "name": "Prefabricated Aluminum Metal Canopies",
+        "parentId": "8f77a13b-ed07-4570-8347-7fb85ece610a"
+    },
+    {
+        "id": "e602b699-16c6-4cad-b4aa-dcd3674d7903",
+        "name": "Structural and Misc Steel (Fabrication)",
+        "parentId": "8f77a13b-ed07-4570-8347-7fb85ece610a"
+    },
+    {
+        "id": "18192d63-8a56-4706-b4a3-558ffab7832c",
+        "name": "Framing (Steel)",
+        "parentId": "8f77a13b-ed07-4570-8347-7fb85ece610a"
+    },
+    {
+        "id": "e595b81a-6fe5-4382-81a4-a27cc0dbf2b8",
+        "name": "Rebar & Wire Mesh Install",
+        "parentId": "8f77a13b-ed07-4570-8347-7fb85ece610a"
+    },
+    {
+        "id": "d1e7f689-a8a9-41b5-8ffd-aa55d90c418b",
+        "name": "Drilled Shafts",
+        "parentId": "8f77a13b-ed07-4570-8347-7fb85ece610a"
+    },
+    {
+        "id": "cfbb68f3-a3c0-4f96-a91f-ab1682b9288b",
+        "name": "Painting & Vinyl Wall Covering",
+        "parentId": "8f77a13b-ed07-4570-8347-7fb85ece610a"
+    },
+    {
+        "id": "e19d511a-476e-49b4-a623-044468f6db8e",
+        "name": "Painting & Vinyl Wall Covering",
+        "parentId": "8f77a13b-ed07-4570-8347-7fb85ece610a"
+    },
+    {
+        "id": "9491441c-03a5-4c09-81c3-2dbf179b6c12",
+        "name": "Ornamental Railings",
+        "parentId": "8f77a13b-ed07-4570-8347-7fb85ece610a"
+    },
+    {
+        "id": "cb53907d-4b48-4811-9e94-d2b9e223e563",
+        "name": "Framing (Wood)",
+        "parentId": "8f77a13b-ed07-4570-8347-7fb85ece610a"
+    },
+    {
+        "id": "1b92cae3-7b53-42de-9783-95257ee46d3d",
+        "name": "Doors, Frames & Hardware",
+        "parentId": "8f77a13b-ed07-4570-8347-7fb85ece610a"
+    },
+    {
+        "id": "db2a1c78-9025-4bef-a2ac-4ae05fc40cbc",
+        "name": "Construction Clean and Final Clean",
+        "parentId": "4cbe4631-5059-4347-9c78-65f934e6b964"
+    },
+    {
+        "id": "44d3fb6c-c543-4c2e-ba8e-475818f98bd4",
+        "name": "Electrical and Fire Alarm",
+        "parentId": "db2a1c78-9025-4bef-a2ac-4ae05fc40cbc"
+    },
+    {
+        "id": "f4e8a86a-93e9-4231-b239-5bf45cf090d7",
+        "name": "Wall Protection",
+        "parentId": "db2a1c78-9025-4bef-a2ac-4ae05fc40cbc"
+    },
+    {
+        "id": "55f82341-d9df-40a3-ab09-03c4088b496b",
+        "name": "Prefabricated Aluminum Metal Canopies",
+        "parentId": "db2a1c78-9025-4bef-a2ac-4ae05fc40cbc"
+    },
+    {
+        "id": "548f37c2-32fe-4de1-a013-bfe9c2214585",
+        "name": "Plumbing & Medical Gas",
+        "parentId": "db2a1c78-9025-4bef-a2ac-4ae05fc40cbc"
+    },
+    {
+        "id": "776af6db-44a7-43e8-a9e0-26c3229efdf2",
+        "name": "Framing (Wood)",
+        "parentId": "db2a1c78-9025-4bef-a2ac-4ae05fc40cbc"
+    },
+    {
+        "id": "92c54967-e702-4317-80dc-4b822ca6a10c",
+        "name": "Wall Protection",
+        "parentId": "db2a1c78-9025-4bef-a2ac-4ae05fc40cbc"
+    },
+    {
+        "id": "aa6ae99d-7ad1-4402-813c-9d92b5abfba0",
+        "name": "Overhead Doors",
+        "parentId": "db2a1c78-9025-4bef-a2ac-4ae05fc40cbc"
+    },
+    {
+        "id": "9beaeb8b-78df-495b-8026-a96c6c7a1739",
+        "name": "Curb & Gutter",
+        "parentId": "db2a1c78-9025-4bef-a2ac-4ae05fc40cbc"
+    },
+    {
+        "id": "2554bebd-6ac9-433f-a6ff-0276115fa8bb",
+        "name": "Wall Protection",
+        "parentId": "4cbe4631-5059-4347-9c78-65f934e6b964"
+    },
+    {
+        "id": "8dbfce17-a4a7-4b31-b762-8a0f9a5ad858",
+        "name": "Exterior Signage",
+        "parentId": "2554bebd-6ac9-433f-a6ff-0276115fa8bb"
+    },
+    {
+        "id": "6b46f29c-50be-4cb3-893a-c0fdc20c3463",
+        "name": "Waterproofing & Caulking",
+        "parentId": "2554bebd-6ac9-433f-a6ff-0276115fa8bb"
+    },
+    {
+        "id": "a8f8737f-9630-4a75-bfa7-b4cc66cf2041",
+        "name": "Glass & Glazing",
+        "parentId": "2554bebd-6ac9-433f-a6ff-0276115fa8bb"
+    },
+    {
+        "id": "ae638a4f-03cf-42ea-8ac7-a77ebf504845",
+        "name": "Temp Fencing, Decorative Fencing and Gates",
+        "parentId": "2554bebd-6ac9-433f-a6ff-0276115fa8bb"
+    },
+    {
+        "id": "aca59083-c82c-4183-967f-cebe1dfa2439",
+        "name": "RF Shielding",
+        "parentId": "2554bebd-6ac9-433f-a6ff-0276115fa8bb"
+    },
+    {
+        "id": "8daf7d85-aea2-46dc-8e9d-61cfcd0c5e9a",
+        "name": "Glass & Glazing",
+        "parentId": "2554bebd-6ac9-433f-a6ff-0276115fa8bb"
+    },
+    {
+        "id": "69a1b15f-b7f9-454b-b353-378ae57475b4",
+        "name": "Structural & Misc Steel Erection",
+        "parentId": null
+    },
+    {
+        "id": "fc6a0a1c-55ed-4e1c-baac-5bd75365b5e9",
+        "name": "Hard Tile & Stone",
+        "parentId": "69a1b15f-b7f9-454b-b353-378ae57475b4"
+    },
+    {
+        "id": "f9eb2d19-9ae2-4be3-bf5b-27117818026f",
+        "name": "Elevator",
+        "parentId": "fc6a0a1c-55ed-4e1c-baac-5bd75365b5e9"
+    },
+    {
+        "id": "0591d217-2c2f-4ecd-8327-85a9b995b1d1",
+        "name": "RF Shielding",
+        "parentId": "fc6a0a1c-55ed-4e1c-baac-5bd75365b5e9"
+    },
+    {
+        "id": "98526706-606e-49f7-8520-42c4276cd52a",
+        "name": "Framing (Wood)",
+        "parentId": "fc6a0a1c-55ed-4e1c-baac-5bd75365b5e9"
+    },
+    {
+        "id": "6404a361-0dfa-4359-8ddd-a69f733a9f0e",
+        "name": "Roofing (Metal)",
+        "parentId": "fc6a0a1c-55ed-4e1c-baac-5bd75365b5e9"
+    },
+    {
+        "id": "0117cd78-6995-4fcf-a48a-ddb06fad7a69",
+        "name": "Structural and Misc Steel (Fabrication)",
+        "parentId": "fc6a0a1c-55ed-4e1c-baac-5bd75365b5e9"
+    },
+    {
+        "id": "c679c65a-6da6-403e-b4a7-71b8f7c71db4",
+        "name": "Plumbing & Medical Gas",
+        "parentId": "69a1b15f-b7f9-454b-b353-378ae57475b4"
+    },
+    {
+        "id": "591563a5-811f-4d4d-aa4d-a61cebbcbbf5",
+        "name": "Framing (Wood)",
+        "parentId": "c679c65a-6da6-403e-b4a7-71b8f7c71db4"
+    },
+    {
+        "id": "8f7ce4b0-4744-4ac5-86a1-468a6d47b855",
+        "name": "Electrical and Fire Alarm",
+        "parentId": "c679c65a-6da6-403e-b4a7-71b8f7c71db4"
+    },
+    {
+        "id": "37d9edf2-221c-4336-aa7d-d06dd4cb0431",
+        "name": "Roofing (Asphalt)",
+        "parentId": "c679c65a-6da6-403e-b4a7-71b8f7c71db4"
+    },
+    {
+        "id": "87466e75-aac8-41e1-9cab-a2f4ccc77a2b",
+        "name": "Masonry",
+        "parentId": "c679c65a-6da6-403e-b4a7-71b8f7c71db4"
+    },
+    {
+        "id": "9f330009-b0eb-472d-8c35-d87cf71c866f",
+        "name": "Prefabricated Aluminum Metal Canopies",
+        "parentId": "c679c65a-6da6-403e-b4a7-71b8f7c71db4"
+    },
+    {
+        "id": "4ff995cd-ece7-45a1-ad90-4848877788db",
+        "name": "Ornamental Railings",
+        "parentId": "c679c65a-6da6-403e-b4a7-71b8f7c71db4"
+    },
+    {
+        "id": "993ba04f-5bb5-4eb3-93e9-68903bebad9d",
+        "name": "Retaining Wall and Brick Pavers",
+        "parentId": "c679c65a-6da6-403e-b4a7-71b8f7c71db4"
+    },
+    {
+        "id": "618a81f1-b30a-40fc-86b9-f6bfd277a362",
+        "name": "Prefabricated Aluminum Metal Canopies",
+        "parentId": "c679c65a-6da6-403e-b4a7-71b8f7c71db4"
+    },
+    {
+        "id": "b254fd6f-2955-4036-a33d-f51d80872bd2",
+        "name": "Electrical",
+        "parentId": "69a1b15f-b7f9-454b-b353-378ae57475b4"
+    },
+    {
+        "id": "654dea25-f653-4f6e-b085-765255fd44ae",
+        "name": "Drilled Shafts",
+        "parentId": "b254fd6f-2955-4036-a33d-f51d80872bd2"
+    },
+    {
+        "id": "a8412222-1cdc-4d44-96b8-97d20e79ead3",
+        "name": "Fire Sprinkler System",
+        "parentId": "b254fd6f-2955-4036-a33d-f51d80872bd2"
+    },
+    {
+        "id": "5647f656-c512-45d0-8498-4d2773ca2fac",
+        "name": "Structural & Misc Steel Erection",
+        "parentId": "b254fd6f-2955-4036-a33d-f51d80872bd2"
+    },
+    {
+        "id": "0b2ec10e-6b42-462e-97fa-5aaa3f29bc7d",
+        "name": "Electrical",
+        "parentId": "b254fd6f-2955-4036-a33d-f51d80872bd2"
+    },
+    {
+        "id": "eaa641b2-0713-4665-9e8e-b0eb5a5b9a06",
+        "name": "Asphalt Paving",
+        "parentId": "b254fd6f-2955-4036-a33d-f51d80872bd2"
+    },
+    {
+        "id": "d1a55ec4-f14c-4191-bbc1-4ab677c13cca",
+        "name": "RF Shielding",
+        "parentId": "b254fd6f-2955-4036-a33d-f51d80872bd2"
+    },
+    {
+        "id": "b0a63513-2c20-4b0e-8689-90dd62401f47",
+        "name": "Structural & Misc Steel Erection",
+        "parentId": "69a1b15f-b7f9-454b-b353-378ae57475b4"
+    },
+    {
+        "id": "28b17399-c5ca-471f-a69e-d7e9fd235c08",
+        "name": "Glass & Glazing",
+        "parentId": "b0a63513-2c20-4b0e-8689-90dd62401f47"
+    },
+    {
+        "id": "3a80fadc-08aa-4a17-bdce-3114828ed2ed",
+        "name": "Curb & Gutter",
+        "parentId": "b0a63513-2c20-4b0e-8689-90dd62401f47"
+    },
+    {
+        "id": "e018f98d-5276-4ff3-b8c3-fc08f97986b6",
+        "name": "Painting & Vinyl Wall Covering",
+        "parentId": "b0a63513-2c20-4b0e-8689-90dd62401f47"
+    },
+    {
+        "id": "a2df8a8b-2577-4639-9c8a-566f54bb4300",
+        "name": "Casework",
+        "parentId": "b0a63513-2c20-4b0e-8689-90dd62401f47"
+    },
+    {
+        "id": "753c20a9-d1d7-4720-9ab1-8181cf366395",
+        "name": "Ornamental Railings",
+        "parentId": "b0a63513-2c20-4b0e-8689-90dd62401f47"
+    },
+    {
+        "id": "777d9a53-4b22-4887-aeac-4d7a54a3858a",
+        "name": "Soft Flooring and Base",
+        "parentId": "b0a63513-2c20-4b0e-8689-90dd62401f47"
+    },
+    {
+        "id": "51b6e54d-e3a3-48d5-bd88-3d1055c0333c",
+        "name": "Roofing (Asphalt)",
+        "parentId": "69a1b15f-b7f9-454b-b353-378ae57475b4"
+    },
+    {
+        "id": "50061372-9064-4e7c-9247-b5cf9b1b0b80",
+        "name": "Prefabricated Aluminum Metal Canopies",
+        "parentId": "51b6e54d-e3a3-48d5-bd88-3d1055c0333c"
+    },
+    {
+        "id": "445cffba-5437-4556-889c-09f2cc0b6765",
+        "name": "Masonry & Precast",
+        "parentId": "51b6e54d-e3a3-48d5-bd88-3d1055c0333c"
+    },
+    {
+        "id": "8e165ebf-5ae1-4e1f-b502-823def2db6e8",
+        "name": "Framing (Wood)",
+        "parentId": "51b6e54d-e3a3-48d5-bd88-3d1055c0333c"
+    },
+    {
+        "id": "5c8ebc8f-705e-41ec-b3f2-c8f6a76a601c",
+        "name": "Plumbing & Medical Gas",
+        "parentId": "51b6e54d-e3a3-48d5-bd88-3d1055c0333c"
+    },
+    {
+        "id": "331d2e0d-c2a6-414a-8aa0-e8253e7bf67b",
+        "name": "Masonry",
+        "parentId": "51b6e54d-e3a3-48d5-bd88-3d1055c0333c"
+    },
+    {
+        "id": "52b9c8b0-5fa4-4ab6-aa8a-57e2a64b9926",
+        "name": "Plumbing & Medical Gas",
+        "parentId": null
+    },
+    {
+        "id": "af9257c6-3f7f-4683-9350-1c4a0fbde9ed",
+        "name": "Masonry & Precast",
+        "parentId": "52b9c8b0-5fa4-4ab6-aa8a-57e2a64b9926"
+    },
+    {
+        "id": "6fdb7358-afd0-445c-bd24-a1734d9ecb03",
+        "name": "Overhead Doors",
+        "parentId": "af9257c6-3f7f-4683-9350-1c4a0fbde9ed"
+    },
+    {
+        "id": "c2052fb0-ef1f-431f-b42f-3997de44a93f",
+        "name": "Overhead Doors",
+        "parentId": "af9257c6-3f7f-4683-9350-1c4a0fbde9ed"
+    },
+    {
+        "id": "280b5856-137d-41f2-897c-8e814115a7eb",
+        "name": "Casework",
+        "parentId": "af9257c6-3f7f-4683-9350-1c4a0fbde9ed"
+    },
+    {
+        "id": "fa264847-a275-43e7-ba2e-3a441a188a7b",
+        "name": "Structural & Misc Steel Erection",
+        "parentId": "af9257c6-3f7f-4683-9350-1c4a0fbde9ed"
+    },
+    {
+        "id": "0e06b0b5-cb26-4517-8a66-8f3e1f8952ad",
+        "name": "Granite Surfaces",
+        "parentId": "af9257c6-3f7f-4683-9350-1c4a0fbde9ed"
+    },
+    {
+        "id": "e04f5981-a86d-41db-873f-66e2042eabbe",
+        "name": "Exterior Signage",
+        "parentId": "af9257c6-3f7f-4683-9350-1c4a0fbde9ed"
+    },
+    {
+        "id": "4b86caf8-5f41-4783-945e-203501aa0292",
+        "name": "Plumbing & Medical Gas",
+        "parentId": "af9257c6-3f7f-4683-9350-1c4a0fbde9ed"
+    },
+    {
+        "id": "989b32ab-a3b8-41f2-a81d-971c7a93fc0b",
+        "name": "Epoxy Flooring",
+        "parentId": "af9257c6-3f7f-4683-9350-1c4a0fbde9ed"
+    },
+    {
+        "id": "ebc70b9f-f9f7-4312-b339-664c18293497",
+        "name": "HVAC",
+        "parentId": "af9257c6-3f7f-4683-9350-1c4a0fbde9ed"
+    },
+    {
+        "id": "81c48660-4632-43d8-8648-43a2393eb0ca",
+        "name": "Temp Fencing, Decorative Fencing and Gates",
+        "parentId": "af9257c6-3f7f-4683-9350-1c4a0fbde9ed"
+    },
+    {
+        "id": "42793967-81dc-4618-a1d9-d37883273fe6",
+        "name": "Structural and Misc Steel (Fabrication)",
+        "parentId": "52b9c8b0-5fa4-4ab6-aa8a-57e2a64b9926"
+    },
+    {
+        "id": "f5d9ad5c-46c5-47c2-8a66-2314bd31c3c1",
+        "name": "Glass & Glazing",
+        "parentId": "42793967-81dc-4618-a1d9-d37883273fe6"
+    },
+    {
+        "id": "22299528-0824-49da-92e5-3e200635ac50",
+        "name": "Prefabricated Aluminum Metal Canopies",
+        "parentId": "42793967-81dc-4618-a1d9-d37883273fe6"
+    },
+    {
+        "id": "d90a0eea-5371-4cb5-b0d4-860db18ffecf",
+        "name": "Roofing (Asphalt)",
+        "parentId": "42793967-81dc-4618-a1d9-d37883273fe6"
+    },
+    {
+        "id": "6279d160-d7a7-468f-b4b7-00d05e8e0af2",
+        "name": "Roofing (Asphalt)",
+        "parentId": "42793967-81dc-4618-a1d9-d37883273fe6"
+    },
+    {
+        "id": "03ebe034-764d-4e43-8da6-b1a57fb761cb",
+        "name": "Landscaping & Irrigation",
+        "parentId": "42793967-81dc-4618-a1d9-d37883273fe6"
+    },
+    {
+        "id": "3ef944e8-6b73-4e2b-b650-1ee4e74410cf",
+        "name": "Epoxy Flooring",
+        "parentId": "42793967-81dc-4618-a1d9-d37883273fe6"
+    },
+    {
+        "id": "affb5040-f541-4302-a799-5d550cf5a1a7",
+        "name": "Sitework & Site Utilities",
+        "parentId": "42793967-81dc-4618-a1d9-d37883273fe6"
+    },
+    {
+        "id": "164bcb9e-90ab-4f5b-8818-80f79cbb2923",
+        "name": "Soft Flooring and Base",
+        "parentId": "42793967-81dc-4618-a1d9-d37883273fe6"
+    },
+    {
+        "id": "ce6a108f-4fae-43c6-b4df-747da5ee9d8d",
+        "name": "Landscaping & Irrigation",
+        "parentId": "42793967-81dc-4618-a1d9-d37883273fe6"
+    },
+    {
+        "id": "412d8cf6-dca0-4ff5-9b68-b90bd772cb27",
+        "name": "Doors, Frames & Hardware",
+        "parentId": "52b9c8b0-5fa4-4ab6-aa8a-57e2a64b9926"
+    },
+    {
+        "id": "3e87c337-5f90-41c8-8382-99b753cb1dff",
+        "name": "Ornamental Railings",
+        "parentId": "412d8cf6-dca0-4ff5-9b68-b90bd772cb27"
+    },
+    {
+        "id": "424fa169-9026-4cc3-b594-f7f4d399f8f8",
+        "name": "Ornamental Railings",
+        "parentId": "412d8cf6-dca0-4ff5-9b68-b90bd772cb27"
+    },
+    {
+        "id": "95891f30-cded-4158-8ffa-e51b2094e821",
+        "name": "Granite Surfaces",
+        "parentId": "412d8cf6-dca0-4ff5-9b68-b90bd772cb27"
+    },
+    {
+        "id": "f5189e80-14ec-4a71-b25a-afdd838f6d4d",
+        "name": "Plumbing & Medical Gas",
+        "parentId": "412d8cf6-dca0-4ff5-9b68-b90bd772cb27"
+    },
+    {
+        "id": "2c16f7b7-7deb-4644-936c-aa08814a689f",
+        "name": "Granite Surfaces",
+        "parentId": "412d8cf6-dca0-4ff5-9b68-b90bd772cb27"
+    },
+    {
+        "id": "2197896d-a7f5-4086-b65d-e24c9d8fbc70",
+        "name": "Rebar & Wire Mesh Install",
+        "parentId": "412d8cf6-dca0-4ff5-9b68-b90bd772cb27"
+    },
+    {
+        "id": "cf3bef50-15cf-4762-9b12-9897502f6813",
+        "name": "Roofing (Metal)",
+        "parentId": "52b9c8b0-5fa4-4ab6-aa8a-57e2a64b9926"
+    },
+    {
+        "id": "9e3d6ceb-2117-419b-b393-58f950b4b882",
+        "name": "Doors, Frames & Hardware",
+        "parentId": "cf3bef50-15cf-4762-9b12-9897502f6813"
+    },
+    {
+        "id": "ec157b17-efad-4229-92ad-8e6d93706dcc",
+        "name": "Wall Protection",
+        "parentId": "cf3bef50-15cf-4762-9b12-9897502f6813"
+    },
+    {
+        "id": "4ee4f931-dee1-4788-a758-52e94ba4bea8",
+        "name": "Masonry & Precast",
+        "parentId": "cf3bef50-15cf-4762-9b12-9897502f6813"
+    },
+    {
+        "id": "32882ad4-31a5-4b33-9968-2fd2cc904fda",
+        "name": "Electrical and Fire Alarm",
+        "parentId": "cf3bef50-15cf-4762-9b12-9897502f6813"
+    },
+    {
+        "id": "7cbd93de-3ded-414c-954e-75112e716bf1",
+        "name": "Termite Control",
+        "parentId": "cf3bef50-15cf-4762-9b12-9897502f6813"
+    },
+    {
+        "id": "17b40cc0-ad02-4340-b6ae-13e5c5a3524f",
+        "name": "HVAC",
+        "parentId": "cf3bef50-15cf-4762-9b12-9897502f6813"
+    },
+    {
+        "id": "3daadd21-2b13-487b-a8f0-dd875cfaa3bb",
+        "name": "Granite Surfaces",
+        "parentId": "cf3bef50-15cf-4762-9b12-9897502f6813"
+    },
+    {
+        "id": "df390dc6-4ead-4963-8358-a4ea11cf8ee7",
+        "name": "Masonry & Precast",
+        "parentId": "cf3bef50-15cf-4762-9b12-9897502f6813"
+    },
+    {
+        "id": "31122fc1-f0cd-4f39-ab55-0a2d0d036b2b",
+        "name": "RF Shielding",
+        "parentId": "52b9c8b0-5fa4-4ab6-aa8a-57e2a64b9926"
+    },
+    {
+        "id": "b9478470-2de9-4cf6-b46b-397ab3b39f28",
+        "name": "Wall Protection",
+        "parentId": "31122fc1-f0cd-4f39-ab55-0a2d0d036b2b"
+    },
+    {
+        "id": "ada024dc-18d9-4693-a18c-56714ffc2027",
+        "name": "Masonry",
+        "parentId": "31122fc1-f0cd-4f39-ab55-0a2d0d036b2b"
+    },
+    {
+        "id": "5deba72f-1402-4672-96d6-a1adf056db10",
+        "name": "Electrical",
+        "parentId": "31122fc1-f0cd-4f39-ab55-0a2d0d036b2b"
+    },
+    {
+        "id": "72e82d01-d409-4a07-b6ef-5fe5e74730b9",
+        "name": "Structural and Misc Steel (Fabrication)",
+        "parentId": "31122fc1-f0cd-4f39-ab55-0a2d0d036b2b"
+    },
+    {
+        "id": "81cd7716-2054-41c3-8fb4-e98b61deffb4",
+        "name": "Wall Protection",
+        "parentId": "31122fc1-f0cd-4f39-ab55-0a2d0d036b2b"
+    },
+    {
+        "id": "c44e78bf-9ded-4f73-a66c-169e2af948f5",
+        "name": "Epoxy Flooring",
+        "parentId": null
+    },
+    {
+        "id": "77c8b521-9488-4681-9de6-2264c332e6e5",
+        "name": "Fire Sprinkler System",
+        "parentId": "c44e78bf-9ded-4f73-a66c-169e2af948f5"
+    },
+    {
+        "id": "bc083b64-cedd-42b0-8bb8-33f814324051",
+        "name": "Waterproofing & Caulking",
+        "parentId": "77c8b521-9488-4681-9de6-2264c332e6e5"
+    },
+    {
+        "id": "9af4c7df-a7ca-46a2-a5c7-d424811c1745",
+        "name": "EIFS",
+        "parentId": "77c8b521-9488-4681-9de6-2264c332e6e5"
+    },
+    {
+        "id": "12ca7095-bbae-41be-831a-78d7609e72ed",
+        "name": "Doors, Frames & Hardware",
+        "parentId": "77c8b521-9488-4681-9de6-2264c332e6e5"
+    },
+    {
+        "id": "c49a3b3b-be07-4706-9caa-715941b918f9",
+        "name": "Roofing (Metal)",
+        "parentId": "77c8b521-9488-4681-9de6-2264c332e6e5"
+    },
+    {
+        "id": "b22134d0-6e02-4ab8-93b2-17d8d01018b6",
+        "name": "Drywall & Acoustical (MOB)",
+        "parentId": "77c8b521-9488-4681-9de6-2264c332e6e5"
+    },
+    {
+        "id": "33401e9b-498a-4cf8-9029-982d3c4e1ffe",
+        "name": "Masonry",
+        "parentId": "77c8b521-9488-4681-9de6-2264c332e6e5"
+    },
+    {
+        "id": "47072711-635b-4d55-9a7b-a4a1de78bd1c",
+        "name": "Drywall & Acoustical (FED)",
+        "parentId": "77c8b521-9488-4681-9de6-2264c332e6e5"
+    },
+    {
+        "id": "4d813a42-0444-43c2-bcfc-48a495d0b604",
+        "name": "Curb & Gutter",
+        "parentId": "77c8b521-9488-4681-9de6-2264c332e6e5"
+    },
+    {
+        "id": "4a972661-3aba-4f71-a223-41f4ccafc476",
+        "name": "Exterior Signage",
+        "parentId": "77c8b521-9488-4681-9de6-2264c332e6e5"
+    },
+    {
+        "id": "905d180e-97d3-44c6-8376-f71e34cd5bb1",
+        "name": "Drywall & Acoustical (FED)",
+        "parentId": "c44e78bf-9ded-4f73-a66c-169e2af948f5"
+    },
+    {
+        "id": "90b36f58-d1b2-44e2-98c8-f798b76aca11",
+        "name": "Fire Sprinkler System",
+        "parentId": "905d180e-97d3-44c6-8376-f71e34cd5bb1"
+    },
+    {
+        "id": "3f838a55-f9fa-4582-8c57-359a01b34093",
+        "name": "Asphalt Paving",
+        "parentId": "905d180e-97d3-44c6-8376-f71e34cd5bb1"
+    },
+    {
+        "id": "18923674-72e1-4c66-aec2-d5844b8bcc7e",
+        "name": "Drywall & Acoustical (MOB)",
+        "parentId": "905d180e-97d3-44c6-8376-f71e34cd5bb1"
+    },
+    {
+        "id": "61f64134-337f-494f-8a5f-fe7ab0fa70bb",
+        "name": "Temp Fencing, Decorative Fencing and Gates",
+        "parentId": "905d180e-97d3-44c6-8376-f71e34cd5bb1"
+    },
+    {
+        "id": "8d635310-8a84-4051-aed7-d81000bcccf2",
+        "name": "Glass & Glazing",
+        "parentId": "905d180e-97d3-44c6-8376-f71e34cd5bb1"
+    },
+    {
+        "id": "ff628610-8a72-4862-bc12-22653390c877",
+        "name": "Curb & Gutter",
+        "parentId": "905d180e-97d3-44c6-8376-f71e34cd5bb1"
+    },
+    {
+        "id": "13cb1b79-5593-4d85-ae48-3fabe2db760c",
+        "name": "Elevator",
+        "parentId": "c44e78bf-9ded-4f73-a66c-169e2af948f5"
+    },
+    {
+        "id": "71bc327b-4c31-4a36-a149-9f6db7770709",
+        "name": "Structural & Misc Steel Erection",
+        "parentId": "13cb1b79-5593-4d85-ae48-3fabe2db760c"
+    },
+    {
+        "id": "c3b0215a-afb9-4408-bd3a-8262abd26820",
+        "name": "Retaining Wall and Brick Pavers",
+        "parentId": "13cb1b79-5593-4d85-ae48-3fabe2db760c"
+    },
+    {
+        "id": "8e5bef83-796b-40d7-9e7f-c7a23cb61207",
+        "name": "Marlite Panels (FED)",
+        "parentId": "13cb1b79-5593-4d85-ae48-3fabe2db760c"
+    },
+    {
+        "id": "f6658ef8-abd7-40e7-94e8-2d3f3e3b6769",
+        "name": "Site Furnishings",
+        "parentId": "13cb1b79-5593-4d85-ae48-3fabe2db760c"
+    },
+    {
+        "id": "ab8e9a7c-31c6-4630-b7c4-59ccfa65a8b4",
+        "name": "Hard Tile & Stone",
+        "parentId": "13cb1b79-5593-4d85-ae48-3fabe2db760c"
+    },
+    {
+        "id": "3b9896a7-da4c-4a91-910f-318337117c67",
+        "name": "Asphalt Paving",
+        "parentId": "13cb1b79-5593-4d85-ae48-3fabe2db760c"
+    },
+    {
+        "id": "5ae251d5-7c32-47cc-812f-38c692c7242a",
+        "name": "Wall Protection",
+        "parentId": "13cb1b79-5593-4d85-ae48-3fabe2db760c"
+    },
+    {
+        "id": "447b1633-ff1e-43d5-b3df-d481c0a131a3",
+        "name": "Drywall & Acoustical (FED)",
+        "parentId": "c44e78bf-9ded-4f73-a66c-169e2af948f5"
+    },
+    {
+        "id": "edeb034d-a414-4760-ad21-4897cc266230",
+        "name": "Epoxy Flooring",
+        "parentId": "447b1633-ff1e-43d5-b3df-d481c0a131a3"
+    },
+    {
+        "id": "ff81369b-47c4-4eea-8605-1c774b403277",
+        "name": "Hard Tile & Stone",
+        "parentId": "447b1633-ff1e-43d5-b3df-d481c0a131a3"
+    },
+    {
+        "id": "bd0460c0-95cd-4024-b301-11e1e690ef7c",
+        "name": "Rebar & Wire Mesh Install",
+        "parentId": "447b1633-ff1e-43d5-b3df-d481c0a131a3"
+    },
+    {
+        "id": "5ece8ad7-573f-435e-8d11-b36715b4c543",
+        "name": "Glass & Glazing",
+        "parentId": "447b1633-ff1e-43d5-b3df-d481c0a131a3"
+    },
+    {
+        "id": "a45116a4-f43b-4aff-b907-00298e78e655",
+        "name": "Masonry & Precast",
+        "parentId": "447b1633-ff1e-43d5-b3df-d481c0a131a3"
+    },
+    {
+        "id": "b5e8fdbc-9bd3-4ee1-add7-8daa06be8d37",
+        "name": "Sitework & Site Utilities",
+        "parentId": "447b1633-ff1e-43d5-b3df-d481c0a131a3"
+    },
+    {
+        "id": "75633d8d-2a1d-4bc6-bbe0-4379323db123",
+        "name": "Exterior Signage",
+        "parentId": "447b1633-ff1e-43d5-b3df-d481c0a131a3"
+    },
+    {
+        "id": "199b9557-ab37-4975-9261-93c6675167a0",
+        "name": "Masonry",
+        "parentId": "447b1633-ff1e-43d5-b3df-d481c0a131a3"
+    },
+    {
+        "id": "bc6687ed-9d62-4a16-98d9-bdc1cad9dc09",
+        "name": "Masonry & Precast",
+        "parentId": "c44e78bf-9ded-4f73-a66c-169e2af948f5"
+    },
+    {
+        "id": "cb259dfe-be6f-4a6c-8c82-710904176fc2",
+        "name": "Structural & Misc Steel Erection",
+        "parentId": "bc6687ed-9d62-4a16-98d9-bdc1cad9dc09"
+    },
+    {
+        "id": "1f3d3c76-4926-4653-8bb2-951bef7ba25b",
+        "name": "Granite Surfaces",
+        "parentId": "bc6687ed-9d62-4a16-98d9-bdc1cad9dc09"
+    },
+    {
+        "id": "bf3ec3d0-86cc-454c-997c-14364dd92c43",
+        "name": "Drywall & Acoustical (FED)",
+        "parentId": "bc6687ed-9d62-4a16-98d9-bdc1cad9dc09"
+    },
+    {
+        "id": "e0ced95e-de99-4afa-80a4-5cf7865120f8",
+        "name": "Electrical and Fire Alarm",
+        "parentId": "bc6687ed-9d62-4a16-98d9-bdc1cad9dc09"
+    },
+    {
+        "id": "a7671ba7-06cb-4497-b719-eb267b6c47f9",
+        "name": "Glass & Glazing",
+        "parentId": "bc6687ed-9d62-4a16-98d9-bdc1cad9dc09"
+    },
+    {
+        "id": "aac2fcb9-3f95-4cdd-a6af-f0c0ab734c1e",
+        "name": "Site Furnishings",
+        "parentId": null
+    },
+    {
+        "id": "26cbbb21-b70a-4f39-a317-60d5072eb225",
+        "name": "Granite Surfaces",
+        "parentId": "aac2fcb9-3f95-4cdd-a6af-f0c0ab734c1e"
+    },
+    {
+        "id": "dd20e474-12a3-48c3-8482-917540583c90",
+        "name": "Granite Surfaces",
+        "parentId": "26cbbb21-b70a-4f39-a317-60d5072eb225"
+    },
+    {
+        "id": "6c70764a-208b-412b-aec4-ece21c6e146b",
+        "name": "Sitework & Site Utilities",
+        "parentId": "26cbbb21-b70a-4f39-a317-60d5072eb225"
+    },
+    {
+        "id": "36a76d50-6c42-42ce-9374-6754fe56c89d",
+        "name": "Hard Tile & Stone",
+        "parentId": "26cbbb21-b70a-4f39-a317-60d5072eb225"
+    },
+    {
+        "id": "956769a2-8a01-493b-99e0-135603a793e5",
+        "name": "Framing (Wood)",
+        "parentId": "26cbbb21-b70a-4f39-a317-60d5072eb225"
+    },
+    {
+        "id": "410bd25c-61fb-44df-bb7b-41c5317a228b",
+        "name": "Epoxy Flooring",
+        "parentId": "26cbbb21-b70a-4f39-a317-60d5072eb225"
+    },
+    {
+        "id": "74221b29-47bb-49c8-8e3f-b344b1af77b6",
+        "name": "Drywall & Acoustical (MOB)",
+        "parentId": "26cbbb21-b70a-4f39-a317-60d5072eb225"
+    },
+    {
+        "id": "cac2442c-e0db-4836-8a29-09a99498e80b",
+        "name": "Asphalt Paving",
+        "parentId": "26cbbb21-b70a-4f39-a317-60d5072eb225"
+    },
+    {
+        "id": "cb51d40c-fb64-428b-9ab1-365a82b55b5e",
+        "name": "Fire Sprinkler System",
+        "parentId": "26cbbb21-b70a-4f39-a317-60d5072eb225"
+    },
+    {
+        "id": "186f53f9-fd15-4a49-9044-203a465f1334",
+        "name": "Asphalt Paving",
+        "parentId": "26cbbb21-b70a-4f39-a317-60d5072eb225"
+    },
+    {
+        "id": "3ad33fba-6bb7-45ae-805d-d8cd50ee9d1d",
+        "name": "Retaining Wall and Brick Pavers",
+        "parentId": "26cbbb21-b70a-4f39-a317-60d5072eb225"
+    },
+    {
+        "id": "58661a37-1a61-43fd-a87a-8ff27edf7263",
+        "name": "Structural & Misc Steel Erection",
+        "parentId": "aac2fcb9-3f95-4cdd-a6af-f0c0ab734c1e"
+    },
+    {
+        "id": "f7ad7794-a26d-4eaa-9294-23306e34b1a2",
+        "name": "Plumbing & Medical Gas",
+        "parentId": "58661a37-1a61-43fd-a87a-8ff27edf7263"
+    },
+    {
+        "id": "450c24fc-c8f0-425e-a69e-e47974918a47",
+        "name": "Sitework & Site Utilities",
+        "parentId": "58661a37-1a61-43fd-a87a-8ff27edf7263"
+    },
+    {
+        "id": "42d083dc-82d7-4a6c-97d2-a324f9c32b03",
+        "name": "Site Furnishings",
+        "parentId": "58661a37-1a61-43fd-a87a-8ff27edf7263"
+    },
+    {
+        "id": "c87861a3-4d1a-401c-a11e-b35c4842e979",
+        "name": "Epoxy Flooring",
+        "parentId": "58661a37-1a61-43fd-a87a-8ff27edf7263"
+    },
+    {
+        "id": "dca2945f-eac7-4b70-9381-ff85fa700687",
+        "name": "Construction Clean and Final Clean",
+        "parentId": "58661a37-1a61-43fd-a87a-8ff27edf7263"
+    },
+    {
+        "id": "806952fb-f653-40d5-b1c9-6b7745a6521d",
+        "name": "Electrical and Fire Alarm",
+        "parentId": "58661a37-1a61-43fd-a87a-8ff27edf7263"
+    },
+    {
+        "id": "03f4397b-391e-4e99-be1d-687fd7ecd169",
+        "name": "Structural and Misc Steel (Fabrication)",
+        "parentId": "58661a37-1a61-43fd-a87a-8ff27edf7263"
+    },
+    {
+        "id": "30e77756-333a-4e21-868a-f6996da330b5",
+        "name": "Framing (Steel)",
+        "parentId": "aac2fcb9-3f95-4cdd-a6af-f0c0ab734c1e"
+    },
+    {
+        "id": "6b4cea7f-c0cc-414b-8e62-3a3d3b596069",
+        "name": "Overhead Doors",
+        "parentId": "30e77756-333a-4e21-868a-f6996da330b5"
+    },
+    {
+        "id": "e91642eb-767d-478f-bf5e-9eab9bb62fd5",
+        "name": "Doors, Frames & Hardware",
+        "parentId": "30e77756-333a-4e21-868a-f6996da330b5"
+    },
+    {
+        "id": "6a937e1c-c859-453c-a897-aa47e61f0003",
+        "name": "Electrical",
+        "parentId": "30e77756-333a-4e21-868a-f6996da330b5"
+    },
+    {
+        "id": "e50f47e2-b8aa-4208-bf10-ccd9d019d641",
+        "name": "Framing (Wood)",
+        "parentId": "30e77756-333a-4e21-868a-f6996da330b5"
+    },
+    {
+        "id": "0dbfe42c-d14b-491d-8064-601efd2ef20a",
+        "name": "Soft Flooring and Base",
+        "parentId": "30e77756-333a-4e21-868a-f6996da330b5"
+    },
+    {
+        "id": "52497aa6-bab6-4a2a-8a34-8daf91db2977",
+        "name": "Waterproofing & Caulking",
+        "parentId": "30e77756-333a-4e21-868a-f6996da330b5"
+    },
+    {
+        "id": "0363065b-0513-4be9-b7bf-b2b2d67da3f5",
+        "name": "Drywall & Acoustical (FED)",
+        "parentId": "aac2fcb9-3f95-4cdd-a6af-f0c0ab734c1e"
+    },
+    {
+        "id": "3d150067-c0b0-4149-80f9-b80c844c443e",
+        "name": "Fire Protection",
+        "parentId": "0363065b-0513-4be9-b7bf-b2b2d67da3f5"
+    },
+    {
+        "id": "223fc8b5-abe2-4edb-ae2f-5803e1ca3ddf",
+        "name": "Landscaping & Irrigation",
+        "parentId": "0363065b-0513-4be9-b7bf-b2b2d67da3f5"
+    },
+    {
+        "id": "da3271de-23df-4383-80af-bbc121f88037",
+        "name": "Construction Clean and Final Clean",
+        "parentId": "0363065b-0513-4be9-b7bf-b2b2d67da3f5"
+    },
+    {
+        "id": "3c7b6b4e-9e45-4403-be04-87e09d6524b1",
+        "name": "Fire Protection",
+        "parentId": "0363065b-0513-4be9-b7bf-b2b2d67da3f5"
+    },
+    {
+        "id": "0a63927d-97cf-46cf-85fa-23690b9e0493",
+        "name": "Framing (Steel)",
+        "parentId": "0363065b-0513-4be9-b7bf-b2b2d67da3f5"
+    },
+    {
+        "id": "006ad287-cda6-4310-a142-e7438836d284",
+        "name": "HVAC",
+        "parentId": "aac2fcb9-3f95-4cdd-a6af-f0c0ab734c1e"
+    },
+    {
+        "id": "0f72c447-1a28-402d-b6f6-4310b585576b",
+        "name": "Curb & Gutter",
+        "parentId": "006ad287-cda6-4310-a142-e7438836d284"
+    },
+    {
+        "id": "5032ed49-989c-4f8e-bec1-73d645043e41",
+        "name": "Glass & Glazing",
+        "parentId": "006ad287-cda6-4310-a142-e7438836d284"
+    },
+    {
+        "id": "87e70297-a3c6-4e62-b37f-0937aa648c4b",
+        "name": "Curb & Gutter",
+        "parentId": "006ad287-cda6-4310-a142-e7438836d284"
+    },
+    {
+        "id": "1f9793a0-ab80-457d-b458-e84f4b3e308f",
+        "name": "Rebar & Wire Mesh Install",
+        "parentId": "006ad287-cda6-4310-a142-e7438836d284"
+    },
+    {
+        "id": "3c1b1a98-b37f-4972-af9d-3d9682347be1",
+        "name": "Structural & Misc Steel Erection",
+        "parentId": "006ad287-cda6-4310-a142-e7438836d284"
+    },
+    {
+        "id": "33124d30-84cb-45f1-93ea-d20c087887bc",
+        "name": "EIFS",
+        "parentId": null
+    },
+    {
+        "id": "eb6e94e1-8e8c-4c17-aeae-3c2ac8ca7657",
+        "name": "Framing (Steel)",
+        "parentId": "33124d30-84cb-45f1-93ea-d20c087887bc"
+    },
+    {
+        "id": "9682d8ff-2c38-4224-bed7-5c94f5e5ca07",
+        "name": "Asphalt Paving",
+        "parentId": "eb6e94e1-8e8c-4c17-aeae-3c2ac8ca7657"
+    },
+    {
+        "id": "0edaad58-9672-4860-8a57-6dc5884591cf",
+        "name": "Painting & Vinyl Wall Covering",
+        "parentId": "eb6e94e1-8e8c-4c17-aeae-3c2ac8ca7657"
+    },
+    {
+        "id": "f8580586-f805-49af-8444-347b7899a654",
+        "name": "Granite Surfaces",
+        "parentId": "eb6e94e1-8e8c-4c17-aeae-3c2ac8ca7657"
+    },
+    {
+        "id": "e42a3b96-bc96-48a9-9637-c9caa8e8c02a",
+        "name": "HVAC",
+        "parentId": "eb6e94e1-8e8c-4c17-aeae-3c2ac8ca7657"
+    },
+    {
+        "id": "32083c47-0f86-4daa-83b7-0dcea6396fef",
+        "name": "Retaining Wall and Brick Pavers",
+        "parentId": "eb6e94e1-8e8c-4c17-aeae-3c2ac8ca7657"
+    },
+    {
+        "id": "4ecdedc9-9307-44ac-851b-d770ae8009d7",
+        "name": "Fire Sprinkler System",
+        "parentId": "eb6e94e1-8e8c-4c17-aeae-3c2ac8ca7657"
+    },
+    {
+        "id": "4203d6ac-dcae-4720-a7ae-30bcab5c9cd4",
+        "name": "Doors, Frames & Hardware",
+        "parentId": "eb6e94e1-8e8c-4c17-aeae-3c2ac8ca7657"
+    },
+    {
+        "id": "4497606e-1366-4e87-a8ef-277b3bd46490",
+        "name": "Exterior Signage",
+        "parentId": "eb6e94e1-8e8c-4c17-aeae-3c2ac8ca7657"
+    },
+    {
+        "id": "ff79c9f2-e3e6-4f75-a762-1688192dd334",
+        "name": "Marlite Panels (FED)",
+        "parentId": "33124d30-84cb-45f1-93ea-d20c087887bc"
+    },
+    {
+        "id": "b5640ff7-3565-40aa-a91a-cb6e3e921ce5",
+        "name": "Drywall & Acoustical (MOB)",
+        "parentId": "ff79c9f2-e3e6-4f75-a762-1688192dd334"
+    },
+    {
+        "id": "dd8c288f-bf9e-4da9-b427-6bff1b12e2f9",
+        "name": "Drywall & Acoustical (FED)",
+        "parentId": "ff79c9f2-e3e6-4f75-a762-1688192dd334"
+    },
+    {
+        "id": "4ff5befc-0e37-44f7-9f67-49444a070485",
+        "name": "Masonry",
+        "parentId": "ff79c9f2-e3e6-4f75-a762-1688192dd334"
+    },
+    {
+        "id": "1e842dbc-0414-48ee-bfad-a577e1dacaf9",
+        "name": "Electrical and Fire Alarm",
+        "parentId": "ff79c9f2-e3e6-4f75-a762-1688192dd334"
+    },
+    {
+        "id": "b71eec36-2e6f-4162-b174-8f712f3950b9",
+        "name": "Masonry",
+        "parentId": "ff79c9f2-e3e6-4f75-a762-1688192dd334"
+    },
+    {
+        "id": "cab60f02-6f7c-43a0-b7ca-8f32d03794fb",
+        "name": "Granite Surfaces",
+        "parentId": "ff79c9f2-e3e6-4f75-a762-1688192dd334"
+    },
+    {
+        "id": "70840ba6-9df0-49d9-8c9a-4db8aa70e7e3",
+        "name": "Overhead Doors",
+        "parentId": "ff79c9f2-e3e6-4f75-a762-1688192dd334"
+    },
+    {
+        "id": "cf17580f-e339-461b-a48e-b692a33bce3d",
+        "name": "Hard Tile & Stone",
+        "parentId": "ff79c9f2-e3e6-4f75-a762-1688192dd334"
+    },
+    {
+        "id": "1eea138c-b5b1-45ff-92a6-90f956b36cc3",
+        "name": "Overhead Doors",
+        "parentId": "ff79c9f2-e3e6-4f75-a762-1688192dd334"
+    },
+    {
+        "id": "028f6bc1-eb43-408c-a45b-8f529abb1708",
+        "name": "Drilled Shafts",
+        "parentId": "33124d30-84cb-45f1-93ea-d20c087887bc"
+    },
+    {
+        "id": "cc69c9da-25fc-48b0-97e6-9f26eb8b6629",
+        "name": "Marlite Panels (FED)",
+        "parentId": "028f6bc1-eb43-408c-a45b-8f529abb1708"
+    },
+    {
+        "id": "e227b730-9d6d-4566-a930-6f35a523beeb",
+        "name": "Drywall & Acoustical (MOB)",
+        "parentId": "028f6bc1-eb43-408c-a45b-8f529abb1708"
+    },
+    {
+        "id": "070db6fb-fed6-4b74-8046-a703b1ca69d1",
+        "name": "Waterproofing & Caulking",
+        "parentId": "028f6bc1-eb43-408c-a45b-8f529abb1708"
+    },
+    {
+        "id": "6069562d-35f6-4b68-a8fa-a9651ecde3d4",
+        "name": "Doors, Frames & Hardware",
+        "parentId": "028f6bc1-eb43-408c-a45b-8f529abb1708"
+    },
+    {
+        "id": "195cb39d-ebfe-43be-aa85-e6dace79e633",
+        "name": "Site Furnishings",
+        "parentId": "028f6bc1-eb43-408c-a45b-8f529abb1708"
+    },
+    {
+        "id": "e3a90a69-1e07-4b98-9d99-46f80e72afb1",
+        "name": "Drilled Shafts",
+        "parentId": "028f6bc1-eb43-408c-a45b-8f529abb1708"
+    },
+    {
+        "id": "bd014804-9acb-4357-a074-64ec5d195d1d",
+        "name": "HVAC",
+        "parentId": "028f6bc1-eb43-408c-a45b-8f529abb1708"
+    },
+    {
+        "id": "b8fa8094-2879-4349-9891-33d5091e1469",
+        "name": "Painting & Vinyl Wall Covering",
+        "parentId": "028f6bc1-eb43-408c-a45b-8f529abb1708"
+    },
+    {
+        "id": "f1041620-9aaf-4934-858f-67037b09cfc6",
+        "name": "Marlite Panels (FED)",
+        "parentId": "028f6bc1-eb43-408c-a45b-8f529abb1708"
+    },
+    {
+        "id": "0972bc62-fb2b-4383-b83b-1c758dafbfd1",
+        "name": "Painting & Vinyl Wall Covering",
+        "parentId": "33124d30-84cb-45f1-93ea-d20c087887bc"
+    },
+    {
+        "id": "c9376212-1364-43cc-addc-5142536c0624",
+        "name": "Site Furnishings",
+        "parentId": "0972bc62-fb2b-4383-b83b-1c758dafbfd1"
+    },
+    {
+        "id": "6127b3d2-9c53-4141-adae-0cb1e44bae79",
+        "name": "Waterproofing & Caulking",
+        "parentId": "0972bc62-fb2b-4383-b83b-1c758dafbfd1"
+    },
+    {
+        "id": "65e8dd2d-e1c3-4027-b131-d0ff793a5fd9",
+        "name": "Roofing (Metal)",
+        "parentId": "0972bc62-fb2b-4383-b83b-1c758dafbfd1"
+    },
+    {
+        "id": "52614220-d732-4792-b2ec-6e6a941be75e",
+        "name": "Prefabricated Aluminum Metal Canopies",
+        "parentId": "0972bc62-fb2b-4383-b83b-1c758dafbfd1"
+    },
+    {
+        "id": "68ce9eab-4d1c-4dc0-856d-503718bff73d",
+        "name": "Waterproofing & Caulking",
+        "parentId": "0972bc62-fb2b-4383-b83b-1c758dafbfd1"
+    },
+    {
+        "id": "f35cfb18-714d-4984-a08c-9c57ca864d1f",
+        "name": "Roofing (Metal)",
+        "parentId": "0972bc62-fb2b-4383-b83b-1c758dafbfd1"
+    },
+    {
+        "id": "bdf75176-88c4-4233-aa96-c7b42948e64b",
+        "name": "Granite Surfaces",
+        "parentId": "33124d30-84cb-45f1-93ea-d20c087887bc"
+    },
+    {
+        "id": "5d353c4c-8d7d-4f93-b55b-4527567830f9",
+        "name": "Fire Sprinkler System",
+        "parentId": "bdf75176-88c4-4233-aa96-c7b42948e64b"
+    },
+    {
+        "id": "cb3a7e96-86b9-48c0-8a48-30e8e096d657",
+        "name": "Prefabricated Aluminum Metal Canopies",
+        "parentId": "bdf75176-88c4-4233-aa96-c7b42948e64b"
+    },
+    {
+        "id": "6ddd237d-d82d-4b31-8ccd-450fd08291c1",
+        "name": "Marlite Panels (FED)",
+        "parentId": "bdf75176-88c4-4233-aa96-c7b42948e64b"
+    },
+    {
+        "id": "7fd8475b-76e2-4c9e-9cfe-0a3e1cea0f2b",
+        "name": "Roofing (Metal)",
+        "parentId": "bdf75176-88c4-4233-aa96-c7b42948e64b"
+    },
+    {
+        "id": "139fdbee-d2ae-4936-809d-9c50387b970a",
+        "name": "Glass & Glazing",
+        "parentId": "bdf75176-88c4-4233-aa96-c7b42948e64b"
+    },
+    {
+        "id": "1c11ed78-94ce-4a0e-af97-6131b3fdba29",
+        "name": "Asphalt Paving",
+        "parentId": "bdf75176-88c4-4233-aa96-c7b42948e64b"
+    },
+    {
+        "id": "d368fea2-7b38-4b2d-8a63-28997a22b6bd",
+        "name": "Framing (Steel)",
+        "parentId": "bdf75176-88c4-4233-aa96-c7b42948e64b"
+    },
+    {
+        "id": "facd4b19-0c87-4116-be50-568cccff53f0",
+        "name": "Elevator",
+        "parentId": null
+    },
+    {
+        "id": "1b5655a2-526e-4222-85ed-373fb064149d",
+        "name": "Doors, Frames & Hardware",
+        "parentId": "facd4b19-0c87-4116-be50-568cccff53f0"
+    },
+    {
+        "id": "c49d8734-62f3-4362-b934-9a9f52c49fc4",
+        "name": "Framing (Steel)",
+        "parentId": "1b5655a2-526e-4222-85ed-373fb064149d"
+    },
+    {
+        "id": "246c0ccc-95d8-4d07-9108-a9283ddf3991",
+        "name": "Construction Clean and Final Clean",
+        "parentId": "1b5655a2-526e-4222-85ed-373fb064149d"
+    },
+    {
+        "id": "fcc0e1ca-146f-441f-a296-2d4eecf3e53c",
+        "name": "Electrical",
+        "parentId": "1b5655a2-526e-4222-85ed-373fb064149d"
+    },
+    {
+        "id": "08405524-4687-49d5-ac89-55b27b114a2b",
+        "name": "Structural and Misc Steel (Fabrication)",
+        "parentId": "1b5655a2-526e-4222-85ed-373fb064149d"
+    },
+    {
+        "id": "0af0ba55-613f-4e27-865b-7e4c2f362596",
+        "name": "Framing (Wood)",
+        "parentId": "1b5655a2-526e-4222-85ed-373fb064149d"
+    },
+    {
+        "id": "da51d144-5b36-4c4b-9eaf-5650bc64c893",
+        "name": "Doors, Frames & Hardware",
+        "parentId": "1b5655a2-526e-4222-85ed-373fb064149d"
+    },
+    {
+        "id": "7ec5ec26-d4e4-4a21-bf16-9536b358b5b7",
+        "name": "Prefabricated Aluminum Metal Canopies",
+        "parentId": "1b5655a2-526e-4222-85ed-373fb064149d"
+    },
+    {
+        "id": "7fe437db-d97f-42f1-ab64-c5c7a8650bb5",
+        "name": "Marlite Panels (FED)",
+        "parentId": "1b5655a2-526e-4222-85ed-373fb064149d"
+    },
+    {
+        "id": "020521f4-55dc-4d49-94dc-e2be164aa646",
+        "name": "Masonry & Precast",
+        "parentId": "1b5655a2-526e-4222-85ed-373fb064149d"
+    },
+    {
+        "id": "ed0b3357-c9ac-4b81-911d-3effa3030a52",
+        "name": "Waterproofing & Caulking",
+        "parentId": "1b5655a2-526e-4222-85ed-373fb064149d"
+    },
+    {
+        "id": "5fafc137-0b2b-4817-99a3-dcf8d8005695",
+        "name": "Termite Control",
+        "parentId": "facd4b19-0c87-4116-be50-568cccff53f0"
+    },
+    {
+        "id": "64d43fb8-6137-43fc-85f8-5d35b9559d14",
+        "name": "Elevator",
+        "parentId": "5fafc137-0b2b-4817-99a3-dcf8d8005695"
+    },
+    {
+        "id": "ca0bf91e-8145-4d30-abf8-21e77b6c8201",
+        "name": "Ornamental Railings",
+        "parentId": "5fafc137-0b2b-4817-99a3-dcf8d8005695"
+    },
+    {
+        "id": "8ace3fa6-6945-48c4-9929-1e56370fc231",
+        "name": "Construction Clean and Final Clean",
+        "parentId": "5fafc137-0b2b-4817-99a3-dcf8d8005695"
+    },
+    {
+        "id": "756be225-30f5-4164-b8c3-31815085cb96",
+        "name": "Exterior Signage",
+        "parentId": "5fafc137-0b2b-4817-99a3-dcf8d8005695"
+    },
+    {
+        "id": "773ab95d-3a71-4d07-9541-313a9977672d",
+        "name": "Painting & Vinyl Wall Covering",
+        "parentId": "5fafc137-0b2b-4817-99a3-dcf8d8005695"
+    },
+    {
+        "id": "29e151b3-ee53-4d9f-9924-182e0e9dc532",
+        "name": "Structural & Misc Steel Erection",
+        "parentId": "facd4b19-0c87-4116-be50-568cccff53f0"
+    },
+    {
+        "id": "0d7cd236-2269-465a-ae3b-ae267bf5e3b3",
+        "name": "Fire Protection",
+        "parentId": "29e151b3-ee53-4d9f-9924-182e0e9dc532"
+    },
+    {
+        "id": "5158a969-4a4d-48a7-85f9-7d1a4d04e10c",
+        "name": "EIFS",
+        "parentId": "29e151b3-ee53-4d9f-9924-182e0e9dc532"
+    },
+    {
+        "id": "98c4a8cc-1260-4987-9377-a4ce734f2ba5",
+        "name": "Framing (Wood)",
+        "parentId": "29e151b3-ee53-4d9f-9924-182e0e9dc532"
+    },
+    {
+        "id": "1a21650c-cecf-45ca-9c17-4081913069cf",
+        "name": "Landscaping & Irrigation",
+        "parentId": "29e151b3-ee53-4d9f-9924-182e0e9dc532"
+    },
+    {
+        "id": "d6fd7ad6-ad68-449f-8ef9-cb632c00bbec",
+        "name": "Curb & Gutter",
+        "parentId": "29e151b3-ee53-4d9f-9924-182e0e9dc532"
+    },
+    {
+        "id": "d1a3b687-3a96-45af-a649-66f719373fcb",
+        "name": "Overhead Doors",
+        "parentId": "29e151b3-ee53-4d9f-9924-182e0e9dc532"
+    },
+    {
+        "id": "7f0008eb-fb51-4fd1-b384-d8bc162f1fa3",
+        "name": "Waterproofing & Caulking",
+        "parentId": "facd4b19-0c87-4116-be50-568cccff53f0"
+    },
+    {
+        "id": "443266e1-4424-4a59-850c-cda73ad48409",
+        "name": "Termite Control",
+        "parentId": "7f0008eb-fb51-4fd1-b384-d8bc162f1fa3"
+    },
+    {
+        "id": "03df3f0d-301b-438a-ade3-0373b3fc2c5f",
+        "name": "Doors, Frames & Hardware",
+        "parentId": "7f0008eb-fb51-4fd1-b384-d8bc162f1fa3"
+    },
+    {
+        "id": "8ad56ab2-10f7-49a6-a8d7-bf9698fc7b45",
+        "name": "Fire Sprinkler System",
+        "parentId": "7f0008eb-fb51-4fd1-b384-d8bc162f1fa3"
+    },
+    {
+        "id": "8dbda5b3-f14e-4e74-b56b-4876bff1c066",
+        "name": "Construction Clean and Final Clean",
+        "parentId": "7f0008eb-fb51-4fd1-b384-d8bc162f1fa3"
+    },
+    {
+        "id": "2a99b6d7-b725-48cb-a0d9-83b7fb0aebad",
+        "name": "Structural & Misc Steel Erection",
+        "parentId": "7f0008eb-fb51-4fd1-b384-d8bc162f1fa3"
+    },
+    {
+        "id": "7f1ca456-81b2-4f27-9bb1-36c1e1c5347d",
+        "name": "Drywall & Acoustical (FED)",
+        "parentId": "7f0008eb-fb51-4fd1-b384-d8bc162f1fa3"
+    },
+    {
+        "id": "4dd2a6bb-5485-4a2f-9ad3-9b315f4e1858",
+        "name": "Painting & Vinyl Wall Covering",
+        "parentId": "7f0008eb-fb51-4fd1-b384-d8bc162f1fa3"
+    },
+    {
+        "id": "c33f3c04-b24e-4542-8e99-e7c7e144e1ed",
+        "name": "Structural & Misc Steel Erection",
+        "parentId": "7f0008eb-fb51-4fd1-b384-d8bc162f1fa3"
+    },
+    {
+        "id": "d6c619ee-b646-49d2-abe4-a0e7dbf337c2",
+        "name": "Masonry & Precast",
+        "parentId": "facd4b19-0c87-4116-be50-568cccff53f0"
+    },
+    {
+        "id": "27db9091-2b34-482d-9207-258fb8b1668c",
+        "name": "Sitework & Site Utilities",
+        "parentId": "d6c619ee-b646-49d2-abe4-a0e7dbf337c2"
+    },
+    {
+        "id": "52a64c9c-4fdd-4869-9ba5-20d672e59774",
+        "name": "Asphalt Paving",
+        "parentId": "d6c619ee-b646-49d2-abe4-a0e7dbf337c2"
+    },
+    {
+        "id": "924cfb22-2e0e-4289-8991-48f061220abb",
+        "name": "Drilled Shafts",
+        "parentId": "d6c619ee-b646-49d2-abe4-a0e7dbf337c2"
+    },
+    {
+        "id": "17ae685f-0605-4179-9bd4-befc201f0ffd",
+        "name": "Wall Protection",
+        "parentId": "d6c619ee-b646-49d2-abe4-a0e7dbf337c2"
+    },
+    {
+        "id": "5dc2c024-a271-417c-8ae5-0b1c56ba480e",
+        "name": "RF Shielding",
+        "parentId": "d6c619ee-b646-49d2-abe4-a0e7dbf337c2"
+    },
+    {
+        "id": "9c0779af-4ec8-45b9-a4f1-c50f64d4dad2",
+        "name": "Framing (Wood)",
+        "parentId": "d6c619ee-b646-49d2-abe4-a0e7dbf337c2"
+    },
+    {
+        "id": "2124933a-6ac6-4f7f-a55c-ff469697c282",
+        "name": "Glass & Glazing",
+        "parentId": "d6c619ee-b646-49d2-abe4-a0e7dbf337c2"
+    },
+    {
+        "id": "f1da07c9-5b10-40a7-8dfa-3c9250349590",
+        "name": "Wall Protection",
+        "parentId": "d6c619ee-b646-49d2-abe4-a0e7dbf337c2"
+    },
+    {
+        "id": "e29bbf84-724f-48d9-b1d2-924a16ba91b9",
+        "name": "Site Furnishings",
+        "parentId": null
+    },
+    {
+        "id": "48bad7e5-fce8-4562-ae4f-acb1b9dc3bc3",
+        "name": "Exterior Signage",
+        "parentId": "e29bbf84-724f-48d9-b1d2-924a16ba91b9"
+    },
+    {
+        "id": "effb4348-23b9-4efc-9597-5e5e90d280fd",
+        "name": "Doors, Frames & Hardware",
+        "parentId": "48bad7e5-fce8-4562-ae4f-acb1b9dc3bc3"
+    },
+    {
+        "id": "6bfe5a75-f3d2-49c1-ab68-6d7aa6d9dfcc",
+        "name": "Masonry",
+        "parentId": "48bad7e5-fce8-4562-ae4f-acb1b9dc3bc3"
+    },
+    {
+        "id": "8f4a40a0-2cc8-4ef3-ab70-248a2a3ccca8",
+        "name": "Drilled Shafts",
+        "parentId": "48bad7e5-fce8-4562-ae4f-acb1b9dc3bc3"
+    },
+    {
+        "id": "5e82df04-2a75-4adc-af13-578900ff1cf1",
+        "name": "Structural & Misc Steel Erection",
+        "parentId": "48bad7e5-fce8-4562-ae4f-acb1b9dc3bc3"
+    },
+    {
+        "id": "ec575ea4-0040-47d9-95a1-64ca30942748",
+        "name": "Fire Protection",
+        "parentId": "48bad7e5-fce8-4562-ae4f-acb1b9dc3bc3"
+    },
+    {
+        "id": "c3fdbe0a-15f5-4dc6-bdef-bea7fcfe9ed3",
+        "name": "Roofing (Metal)",
+        "parentId": "48bad7e5-fce8-4562-ae4f-acb1b9dc3bc3"
+    },
+    {
+        "id": "d264fc24-4e56-4b45-9fe7-714dad44eb8c",
+        "name": "Prefabricated Aluminum Metal Canopies",
+        "parentId": "48bad7e5-fce8-4562-ae4f-acb1b9dc3bc3"
+    },
+    {
+        "id": "122c9040-f62d-4fe5-a606-eb1054a6c871",
+        "name": "Drilled Shafts",
+        "parentId": "48bad7e5-fce8-4562-ae4f-acb1b9dc3bc3"
+    },
+    {
+        "id": "e4334c30-6775-4076-a6d3-8c83a4013b9c",
+        "name": "RF Shielding",
+        "parentId": "e29bbf84-724f-48d9-b1d2-924a16ba91b9"
+    },
+    {
+        "id": "ce6b9351-cb08-4c90-96c1-3b17761ee6ea",
+        "name": "Exterior Signage",
+        "parentId": "e4334c30-6775-4076-a6d3-8c83a4013b9c"
+    },
+    {
+        "id": "5ec9bf9c-92fa-44cd-b876-d7c25648dd8e",
+        "name": "EIFS",
+        "parentId": "e4334c30-6775-4076-a6d3-8c83a4013b9c"
+    },
+    {
+        "id": "139325df-f654-49d4-ab84-a37ea9ca4ae3",
+        "name": "Wall Protection",
+        "parentId": "e4334c30-6775-4076-a6d3-8c83a4013b9c"
+    },
+    {
+        "id": "96c4dc7e-c02e-49c1-9b69-2c24e7a07cc5",
+        "name": "Granite Surfaces",
+        "parentId": "e4334c30-6775-4076-a6d3-8c83a4013b9c"
+    },
+    {
+        "id": "b94e2fee-2866-49b2-a71d-ae28156a4148",
+        "name": "Glass & Glazing",
+        "parentId": "e4334c30-6775-4076-a6d3-8c83a4013b9c"
+    },
+    {
+        "id": "79afb2e9-9a28-4f8a-b7dd-5b4ba230962d",
+        "name": "Doors, Frames & Hardware",
+        "parentId": "e4334c30-6775-4076-a6d3-8c83a4013b9c"
+    },
+    {
+        "id": "7e184fd0-cad6-4bc3-a95b-50cb11becaea",
+        "name": "Roofing (Metal)",
+        "parentId": "e4334c30-6775-4076-a6d3-8c83a4013b9c"
+    },
+    {
+        "id": "981b7f8c-3337-4f37-94e2-705ac9372162",
+        "name": "Termite Control",
+        "parentId": "e4334c30-6775-4076-a6d3-8c83a4013b9c"
+    },
+    {
+        "id": "74f5b0e0-5599-44e1-b6fd-1b3b3445db20",
+        "name": "Doors, Frames & Hardware",
+        "parentId": "e4334c30-6775-4076-a6d3-8c83a4013b9c"
+    },
+    {
+        "id": "6cf8b967-e521-49d2-8efc-63863d01c0ca",
+        "name": "Waterproofing & Caulking",
+        "parentId": "e29bbf84-724f-48d9-b1d2-924a16ba91b9"
+    },
+    {
+        "id": "9f55cb83-0e3f-4587-8fb0-3766505c2805",
+        "name": "Sitework & Site Utilities",
+        "parentId": "6cf8b967-e521-49d2-8efc-63863d01c0ca"
+    },
+    {
+        "id": "f520f296-5101-47de-b353-f1a92bb39ea0",
+        "name": "Fire Sprinkler System",
+        "parentId": "6cf8b967-e521-49d2-8efc-63863d01c0ca"
+    },
+    {
+        "id": "c9b824ca-a03c-49cf-bc12-6659e67ef06e",
+        "name": "Painting & Vinyl Wall Covering",
+        "parentId": "6cf8b967-e521-49d2-8efc-63863d01c0ca"
+    },
+    {
+        "id": "479c1a70-2589-43e9-bd1b-9549ed9b1424",
+        "name": "Framing (Wood)",
+        "parentId": "6cf8b967-e521-49d2-8efc-63863d01c0ca"
+    },
+    {
+        "id": "32fa364c-2b11-4793-802c-f2c42c1f9ee8",
+        "name": "RF Shielding",
+        "parentId": "6cf8b967-e521-49d2-8efc-63863d01c0ca"
+    },
+    {
+        "id": "37168bc8-1982-4fd2-b4d1-79c3d6156a7e",
+        "name": "Structural & Misc Steel Erection",
+        "parentId": "6cf8b967-e521-49d2-8efc-63863d01c0ca"
+    },
+    {
+        "id": "e0650b69-dc4f-41a7-95f7-dafc5ce62119",
+        "name": "Framing (Wood)",
+        "parentId": "6cf8b967-e521-49d2-8efc-63863d01c0ca"
+    },
+    {
+        "id": "f05c946a-7188-4906-aa98-68987b6a81e8",
+        "name": "Drywall & Acoustical (MOB)",
+        "parentId": "e29bbf84-724f-48d9-b1d2-924a16ba91b9"
+    },
+    {
+        "id": "5cd76528-fbed-4487-9af1-3a3bdc764017",
+        "name": "Electrical",
+        "parentId": "f05c946a-7188-4906-aa98-68987b6a81e8"
+    },
+    {
+        "id": "2e595697-bca6-4aae-8f5e-07adc17274fa",
+        "name": "Ornamental Railings",
+        "parentId": "f05c946a-7188-4906-aa98-68987b6a81e8"
+    },
+    {
+        "id": "9524de55-91d4-4209-8a6c-30a777b78ac2",
+        "name": "RF Shielding",
+        "parentId": "f05c946a-7188-4906-aa98-68987b6a81e8"
+    },
+    {
+        "id": "01c7be65-222f-4a6d-a5a1-7aba0d53ab91",
+        "name": "HVAC",
+        "parentId": "f05c946a-7188-4906-aa98-68987b6a81e8"
+    },
+    {
+        "id": "a03bfa92-db8e-4a24-84be-067bd09df260",
+        "name": "Painting & Vinyl Wall Covering",
+        "parentId": "f05c946a-7188-4906-aa98-68987b6a81e8"
+    },
+    {
+        "id": "fb63e984-39a2-44bf-bcbd-5ecf61496b8c",
+        "name": "Retaining Wall and Brick Pavers",
+        "parentId": "f05c946a-7188-4906-aa98-68987b6a81e8"
+    },
+    {
+        "id": "24a8200e-7506-46ce-9301-564e31c0f7c0",
+        "name": "Temp Fencing, Decorative Fencing and Gates",
+        "parentId": "e29bbf84-724f-48d9-b1d2-924a16ba91b9"
+    },
+    {
+        "id": "9e80efe7-fd14-4a63-bc69-9f86eb3b7c0c",
+        "name": "Temp Fencing, Decorative Fencing and Gates",
+        "parentId": "24a8200e-7506-46ce-9301-564e31c0f7c0"
+    },
+    {
+        "id": "74b5af0d-9e9c-4d04-bfbc-6eb95271303a",
+        "name": "Ornamental Railings",
+        "parentId": "24a8200e-7506-46ce-9301-564e31c0f7c0"
+    },
+    {
+        "id": "823c21c8-417d-4a9d-a6cf-ac6784463f7f",
+        "name": "Temp Fencing, Decorative Fencing and Gates",
+        "parentId": "24a8200e-7506-46ce-9301-564e31c0f7c0"
+    },
+    {
+        "id": "ff321467-fe8f-4826-b951-002c3c4acdbe",
+        "name": "Retaining Wall and Brick Pavers",
+        "parentId": "24a8200e-7506-46ce-9301-564e31c0f7c0"
+    },
+    {
+        "id": "45787f97-7349-4e42-bfbe-ecd112751d46",
+        "name": "RF Shielding",
+        "parentId": "24a8200e-7506-46ce-9301-564e31c0f7c0"
+    },
+    {
+        "id": "eeadafcb-e391-407f-b25c-c6d1a195f92c",
+        "name": "Temp Fencing, Decorative Fencing and Gates",
+        "parentId": "24a8200e-7506-46ce-9301-564e31c0f7c0"
+    }
 ]
