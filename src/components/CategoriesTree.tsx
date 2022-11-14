@@ -12,7 +12,7 @@ const CategoriesTree = (): JSX.Element => {
     const rootCategoriesArr = getRootCategories(childrenState, categoriesState);
 
     return (
-        <ul >
+        <ul className='mr-3' >
             <ViewportList items={rootCategoriesArr} margin={8}>
                 {item => <Category {...item} key={item.id} />}
             </ViewportList>

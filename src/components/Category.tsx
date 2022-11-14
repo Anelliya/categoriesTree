@@ -36,11 +36,14 @@ const Category = ({
     const dispatch = useAppDispatch();
     const checkboxRef = useRef() as React.MutableRefObject<HTMLInputElement>;
 
-    const hasChildren = categoryHasChildren(childrenState, id); //returns the children's ids array
+    //returns the children's ids array
+    const hasChildren = categoryHasChildren(childrenState, id); 
+
+    //returns array of children's checkbox status
     const childrenStatus = getChildrenStatus(
         categoriesState,
         childrenIds as [],
-    ); //returns array of children's status
+    ); 
 
     //gets the status of filter fiels (if searching is in progress or not)
     const filter = useAppSelector(state => state.filter); 
@@ -59,7 +62,7 @@ const Category = ({
     useEffect(() => {
         setChildrenIds(getChildrensIds(childrenState, id)); //returns array of children ids if they are
         if (checkboxRef.current) {
-            //sets checkbox depend on the received state status
+            //sets checkbox depending on the received category state status
             if (status === CHECKBOX_STATUS.checked) {
                 checkboxRef.current.checked = true;
                 checkboxRef.current.indeterminate = false;
@@ -75,11 +78,13 @@ const Category = ({
         if (!filter.isActive) {
             return;
         }
-        //matchesSearchTerm returns true if category matching the search
+        //matchesSearchTerm returns true if the current category matching the search
         setChildrenVisible(matchesSearchTerm);
         if (matchesSearchTerm) {
-            //sets collapse to false only for category that matches for filter request
-            dispatch(changeCollapse({ collapsed: false, id }));
+            //sets collapse to false only for the category that matches for filter request
+         dispatch(changeCollapse({ collapsed: false, id }));
+        } else {
+            dispatch(changeCollapse({ collapsed: true, id }))
         }
     }, [filter]); 
 
@@ -143,7 +148,7 @@ const Category = ({
     const handleRenderChildren = () => {
         // toggles children visibility
         setChildrenVisible(!childrenVisible);
-        dispatch(changeCollapse({ collapsed: !isCollapsed, id }));
+        dispatch(changeCollapse({ collapsed: childrenVisible, id }));
     };
 
     const getChildren = () => {
