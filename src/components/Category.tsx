@@ -56,25 +56,9 @@ const Category = ({
         );
     };
 
-    useEffect(() => {
-        setChildrenIds(getChildrensIds(childrenState, id)); //returns array of children ids if they are
-        if (checkboxRef.current) {
-            //sets checkbox depending on the received category state status
-            if (status === CHECKBOX_STATUS.checked) {
-                checkboxRef.current.checked = true;
-                checkboxRef.current.indeterminate = false;
-            } else if (status === CHECKBOX_STATUS.unchecked) {
-                checkboxRef.current.checked = false;
-                checkboxRef.current.indeterminate = false;
-            }
-        }
-    }, []);
-
-    useEffect(() => {
-        //returns true when filter search is in progress
-        if (!filter.isActive) {
-            //sets checkbox checked/unchecked/indeterminate depending on the received status
-            if (status === CHECKBOX_STATUS.checked) {
+    //set checkbox checked/unchecked/indeterminate depending on current category's status
+    const setCheckbox = () => {
+        if (status === CHECKBOX_STATUS.checked) {
                 checkboxRef.current.checked = true;
                 checkboxRef.current.indeterminate = false;
             } else if (status === CHECKBOX_STATUS.unchecked) {
@@ -84,6 +68,21 @@ const Category = ({
                 checkboxRef.current.indeterminate = true;
             
         }
+    }
+
+    useEffect(() => {
+        setChildrenIds(getChildrensIds(childrenState, id)); //returns array of children ids if they are
+        if (checkboxRef.current) {
+            //sets checkbox depending on the received category state status
+            setCheckbox()
+        }
+    }, []);
+
+    useEffect(() => {
+        //returns true when filter search is in progress
+        if (!filter.isActive) {
+            //sets checkbox checked/unchecked/indeterminate depending on the received status
+            setCheckbox()
             return;
         }
         //matchesSearchTerm returns true if the current category matching the search
@@ -94,15 +93,7 @@ const Category = ({
     useEffect(() => {
         if (checkboxRef.current) {
             //sets checkbox checked/unchecked/indeterminate depending on the received status
-            if (status === CHECKBOX_STATUS.checked) {
-                checkboxRef.current.checked = true;
-                checkboxRef.current.indeterminate = false;
-            } else if (status === CHECKBOX_STATUS.unchecked) {
-                checkboxRef.current.checked = false;
-                checkboxRef.current.indeterminate = false;
-            } else if (status === CHECKBOX_STATUS.indeterminate) {
-                checkboxRef.current.indeterminate = true;
-            }
+            setCheckbox()
         }
         
     }, [status]);
