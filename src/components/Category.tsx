@@ -73,10 +73,22 @@ const Category = ({
     useEffect(() => {
         //returns true when filter search is in progress
         if (!filter.isActive) {
+            //sets checkbox checked/unchecked/indeterminate depending on the received status
+            if (status === CHECKBOX_STATUS.checked) {
+                checkboxRef.current.checked = true;
+                checkboxRef.current.indeterminate = false;
+            } else if (status === CHECKBOX_STATUS.unchecked) {
+                checkboxRef.current.checked = false;
+                checkboxRef.current.indeterminate = false;
+            } else if (status === CHECKBOX_STATUS.indeterminate) {
+                checkboxRef.current.indeterminate = true;
+            
+        }
             return;
         }
         //matchesSearchTerm returns true if the current category matching the search
-        dispatch(changeChildrenVisibility({isChildrenVisible:matchesSearchTerm, id}))
+        dispatch(changeChildrenVisibility({ isChildrenVisible: matchesSearchTerm, id }))
+        
     }, [filter]); 
 
     useEffect(() => {
@@ -92,6 +104,7 @@ const Category = ({
                 checkboxRef.current.indeterminate = true;
             }
         }
+        
     }, [status]);
 
     useEffect(() => {
