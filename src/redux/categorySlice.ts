@@ -15,7 +15,7 @@ const createCategoriesHashMap = () => {
                 status: 'unchecked',
                 checkbox: false,
                 matchesSearchTerm: false,
-                childrenVisability: false
+                childrenVisibility: false
             },
         };
     }, {});
@@ -120,12 +120,12 @@ const categories = createSlice({
                 }
             }
         },
-        changeChildrenVisability: (state: CategoriesType,
+        changeChildrenVisibility: (state: CategoriesType,
             {
             payload: { isChildrenVisible, id}
             }: PayloadAction<{ isChildrenVisible : boolean, id: string}>
         ) => {
-            state[id].childrenVisability = isChildrenVisible
+            state[id].childrenVisibility = isChildrenVisible
         }
     },
 });
@@ -151,7 +151,7 @@ const categoriesChildren = createSlice({
     reducers: {},
 });
 
-export const { changeStatus, changeSearchTermMatch, changeChildrenVisability } =
+export const { changeStatus, changeSearchTermMatch, changeChildrenVisibility } =
     categories.actions;
 export const { setIsActive } = filter.actions;
 

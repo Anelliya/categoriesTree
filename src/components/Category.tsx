@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react';
-import { changeStatus, changeChildrenVisability } from '../redux/categorySlice';
+import { changeStatus, changeChildrenVisibility } from '../redux/categorySlice';
 import {
     getChildrenByParentId,
     getChildrensIds,
@@ -22,7 +22,7 @@ const Category = ({
     name,
     matchesSearchTerm,
     status,
-    childrenVisability
+    childrenVisibility
 }: CategoryType) => {
     const [childrenIds, setChildrenIds] = useState<string[] | null>([]);
 
@@ -76,7 +76,7 @@ const Category = ({
             return;
         }
         //matchesSearchTerm returns true if the current category matching the search
-        dispatch(changeChildrenVisability({isChildrenVisible:matchesSearchTerm, id}))
+        dispatch(changeChildrenVisibility({isChildrenVisible:matchesSearchTerm, id}))
     }, [filter]); 
 
     useEffect(() => {
@@ -136,9 +136,9 @@ const Category = ({
         ); 
     };
 
-    const handleRenderChildren = () => {
+    const handleChildrenVisibility = () => {
         // toggles children visibility
-        dispatch(changeChildrenVisability({isChildrenVisible:!childrenVisability, id}))
+        dispatch(changeChildrenVisibility({isChildrenVisible:!childrenVisibility, id}))
     };
 
     const getChildren = () => {
@@ -174,9 +174,9 @@ const Category = ({
                 >
                     <span
                         className="cursor-pointer pr-4"
-                        onClick={handleRenderChildren}
+                        onClick={handleChildrenVisibility}
                     >
-                        {hasChildren && (childrenVisability ? '-' : '+')}
+                        {hasChildren && (childrenVisibility ? '-' : '+')}
                     </span>
                     <input
                         type="checkbox"
@@ -187,7 +187,7 @@ const Category = ({
                     <label className="ml-1 text-gray-900 dark:text-gray-300 ">
                         {name}
                     </label>
-                    {childrenVisability && childrenIds?.length && renderChildren()}
+                    {childrenVisibility && childrenIds?.length && renderChildren()}
                 </li>
             )}
         </>
