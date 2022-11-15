@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react';
-import { changeStatus, changeCollapse } from '../redux/categorySlice';
+import { changeStatus, changeChildrenVisability } from '../redux/categorySlice';
 import {
     getChildrenByParentId,
     getChildrensIds,
@@ -22,11 +22,8 @@ const Category = ({
     name,
     matchesSearchTerm,
     status,
-    isCollapsed,
+    childrenVisability
 }: CategoryType) => {
-    const [childrenVisible, setChildrenVisible] = useState<boolean>(
-        !isCollapsed,
-    );
     const [childrenIds, setChildrenIds] = useState<string[] | null>([]);
 
     // returns children state as an object of parentId: {...children ids}
@@ -79,13 +76,7 @@ const Category = ({
             return;
         }
         //matchesSearchTerm returns true if the current category matching the search
-        setChildrenVisible(matchesSearchTerm);
-        if (matchesSearchTerm) {
-            //sets collapse to false only for the category that matches for filter request
-         dispatch(changeCollapse({ collapsed: false, id }));
-        } else {
-            dispatch(changeCollapse({ collapsed: true, id }))
-        }
+        dispatch(changeChildrenVisability({isChildrenVisible:matchesSearchTerm, id}))
     }, [filter]); 
 
     useEffect(() => {
@@ -147,8 +138,7 @@ const Category = ({
 
     const handleRenderChildren = () => {
         // toggles children visibility
-        setChildrenVisible(!childrenVisible);
-        dispatch(changeCollapse({ collapsed: childrenVisible, id }));
+        dispatch(changeChildrenVisability({isChildrenVisible:!childrenVisability, id}))
     };
 
     const getChildren = () => {
@@ -186,7 +176,7 @@ const Category = ({
                         className="cursor-pointer pr-4"
                         onClick={handleRenderChildren}
                     >
-                        {hasChildren && (isCollapsed ? '+' : '-')}
+                        {hasChildren && (childrenVisability ? '-' : '+')}
                     </span>
                     <input
                         type="checkbox"
@@ -197,7 +187,7 @@ const Category = ({
                     <label className="ml-1 text-gray-900 dark:text-gray-300 ">
                         {name}
                     </label>
-                    {childrenVisible && childrenIds?.length && renderChildren()}
+                    {childrenVisability && childrenIds?.length && renderChildren()}
                 </li>
             )}
         </>

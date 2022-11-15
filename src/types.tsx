@@ -5,7 +5,7 @@ export type CategoryType = {
     status: string;
     checkbox: boolean;
     matchesSearchTerm: boolean;
-    isCollapsed: boolean;
+    childrenVisability: boolean
 };
 
 export type CategoriesType = {
