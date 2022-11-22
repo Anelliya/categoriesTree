@@ -15,7 +15,7 @@ const createCategoriesHashMap = () => {
                 status: 'unchecked',
                 checkbox: false,
                 matchesSearchTerm: false,
-                childrenVisibility: false
+                childrenVisibility: false,
             },
         };
     }, {});
@@ -120,13 +120,14 @@ const categories = createSlice({
                 }
             }
         },
-        changeChildrenVisibility: (state: CategoriesType,
+        changeChildrenVisibility: (
+            state: CategoriesType,
             {
-            payload: { isChildrenVisible, id}
-            }: PayloadAction<{ isChildrenVisible : boolean, id: string}>
+                payload: { isChildrenVisible, id },
+            }: PayloadAction<{ isChildrenVisible: boolean; id: string }>,
         ) => {
-            state[id].childrenVisibility = isChildrenVisible
-        }
+            state[id].childrenVisibility = isChildrenVisible;
+        },
     },
 });
 

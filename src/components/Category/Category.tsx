@@ -1,5 +1,8 @@
 import { useEffect, useState, useRef } from 'react';
-import { changeStatus, changeChildrenVisibility } from '../../redux/categorySlice';
+import {
+    changeStatus,
+    changeChildrenVisibility,
+} from '../../redux/categorySlice';
 import {
     getChildrenByParentId,
     getChildrensIds,
@@ -22,7 +25,7 @@ const Category = ({
     name,
     matchesSearchTerm,
     status,
-    childrenVisibility
+    childrenVisibility,
 }: CategoryType) => {
     const [childrenIds, setChildrenIds] = useState<string[] | null>([]);
 
@@ -34,16 +37,16 @@ const Category = ({
     const checkboxRef = useRef() as React.MutableRefObject<HTMLInputElement>;
 
     //returns the children's ids array
-    const hasChildren = categoryHasChildren(childrenState, id); 
+    const hasChildren = categoryHasChildren(childrenState, id);
 
     //returns array of children's checkbox status
     const childrenStatus = getChildrenStatus(
         categoriesState,
         childrenIds as [],
-    ); 
+    );
 
     //gets the status of filter fiels (if searching is in progress or not)
-    const filter = useAppSelector(state => state.filter); 
+    const filter = useAppSelector(state => state.filter);
 
     const dispatchStatusChange = (status: string) => {
         dispatch(
@@ -59,22 +62,21 @@ const Category = ({
     //set checkbox checked/unchecked/indeterminate depending on current category's status
     const setCheckbox = () => {
         if (status === CHECKBOX_STATUS.checked) {
-                checkboxRef.current.checked = true;
-                checkboxRef.current.indeterminate = false;
-            } else if (status === CHECKBOX_STATUS.unchecked) {
-                checkboxRef.current.checked = false;
-                checkboxRef.current.indeterminate = false;
-            } else if (status === CHECKBOX_STATUS.indeterminate) {
-                checkboxRef.current.indeterminate = true;
-            
+            checkboxRef.current.checked = true;
+            checkboxRef.current.indeterminate = false;
+        } else if (status === CHECKBOX_STATUS.unchecked) {
+            checkboxRef.current.checked = false;
+            checkboxRef.current.indeterminate = false;
+        } else if (status === CHECKBOX_STATUS.indeterminate) {
+            checkboxRef.current.indeterminate = true;
         }
-    }
+    };
 
     useEffect(() => {
         setChildrenIds(getChildrensIds(childrenState, id)); //returns array of children ids if they are
         if (checkboxRef.current) {
             //sets checkbox depending on the received category state status
-            setCheckbox()
+            setCheckbox();
         }
     }, []);
 
@@ -82,20 +84,23 @@ const Category = ({
         //returns true when filter search is in progress
         if (!filter.isActive) {
             //sets checkbox checked/unchecked/indeterminate depending on the received status
-            setCheckbox()
+            setCheckbox();
             return;
         }
         //matchesSearchTerm returns true if the current category matching the search
-        dispatch(changeChildrenVisibility({ isChildrenVisible: matchesSearchTerm, id }))
-        
-    }, [filter]); 
+        dispatch(
+            changeChildrenVisibility({
+                isChildrenVisible: matchesSearchTerm,
+                id,
+            }),
+        );
+    }, [filter]);
 
     useEffect(() => {
         if (checkboxRef.current) {
             //sets checkbox checked/unchecked/indeterminate depending on the received status
-            setCheckbox()
+            setCheckbox();
         }
-        
     }, [status]);
 
     useEffect(() => {
@@ -107,27 +112,27 @@ const Category = ({
             )
         ) {
             //does nothing if both, children and parent, have the same status
-            return; 
+            return;
         } else if (
             childrenStatus?.every(
                 childStatus => childStatus === CHECKBOX_STATUS.checked,
             )
         ) {
             // sets the checked status to parent, if all children are checked
-            dispatchStatusChange(CHECKBOX_STATUS.checked); 
+            dispatchStatusChange(CHECKBOX_STATUS.checked);
         } else if (
             childrenStatus?.every(
                 childStatus => childStatus === CHECKBOX_STATUS.unchecked,
             )
         ) {
             //sets the unchecked status to parent, if all children are unchecked
-            dispatchStatusChange(CHECKBOX_STATUS.unchecked); 
+            dispatchStatusChange(CHECKBOX_STATUS.unchecked);
         } else if (
             childrenStatus?.some(childStatus => childStatus !== status) &&
             status !== CHECKBOX_STATUS.indeterminate
         ) {
             // sets the indeterminate status to parent only if at least one child has diferent status from parent
-            dispatchStatusChange(CHECKBOX_STATUS.indeterminate); 
+            dispatchStatusChange(CHECKBOX_STATUS.indeterminate);
         }
     }, [childrenStatus]);
 
@@ -137,12 +142,17 @@ const Category = ({
             checkboxRef.current.checked
                 ? CHECKBOX_STATUS.checked
                 : CHECKBOX_STATUS.unchecked,
-        ); 
+        );
     };
 
     const handleChildrenVisibility = () => {
         // toggles children visibility
-        dispatch(changeChildrenVisibility({isChildrenVisible:!childrenVisibility, id}))
+        dispatch(
+            changeChildrenVisibility({
+                isChildrenVisible: !childrenVisibility,
+                id,
+            }),
+        );
     };
 
     const getChildren = () => {
@@ -160,7 +170,7 @@ const Category = ({
     const renderChildren = () => {
         // recursively renders a list of children
         return (
-            <ul className='mx-5 mb-3'>
+            <ul className="mx-5 mb-3">
                 {getChildren()?.map(child => (
                     <Category {...child} key={child.id} />
                 ))}
@@ -171,7 +181,7 @@ const Category = ({
     return (
         // if the filter is in progress the current element is shown only if it matches the search term
         <>
-            {(!filter.isActive || matchesSearchTerm) && ( 
+            {(!filter.isActive || matchesSearchTerm) && (
                 <li
                     key={id}
                     className=" bg-gray-100 p-1 text-lg font-serif p-1 m-1"
@@ -191,7 +201,9 @@ const Category = ({
                     <label className="ml-1 text-gray-900 dark:text-gray-300 ">
                         {name}
                     </label>
-                    {childrenVisibility && childrenIds?.length && renderChildren()}
+                    {childrenVisibility &&
+                        childrenIds?.length &&
+                        renderChildren()}
                 </li>
             )}
         </>

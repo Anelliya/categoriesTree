@@ -1,27 +1,26 @@
 import { useEffect, useState } from 'react';
 import { debounce } from 'lodash';
 
-import { FilterPropsType } from './types'
+import { FilterPropsType } from './types';
 
-
-const Filter = ({nodesState, toogleFilterActiveStatus}: FilterPropsType) => {
+const Filter = ({
+    nodesState,
+    toogleFilterActiveStatus,
+    changeSearchTermMatch,
+}: FilterPropsType) => {
     const [filterValue, setFilterValue] = useState<string>('');
-
-    // const dispatch = useAppDispatch();
-
+    
     useEffect(() => {
         const debounceFn = debounce(() => {
             //set the active status of filter field
-            toogleFilterActiveStatus(filterValue.length > 0)
+            toogleFilterActiveStatus(filterValue.length > 0);
 
             if (filterValue) {
-                //dispatches the value of filter field for the searching of matching categories
-                // dispatch(changeSearchTermMatch(filterValue));
+                //sends the value of filter field for the searching of matching categories
+                changeSearchTermMatch(nodesState, filterValue);
             }
-        }, 500);
-
+        }, 1000);
         debounceFn();
-
         return () => debounceFn.cancel();
     }, [filterValue]);
 

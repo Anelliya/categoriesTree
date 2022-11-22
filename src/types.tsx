@@ -5,7 +5,7 @@ export type CategoryType = {
     status: string;
     checkbox: boolean;
     matchesSearchTerm: boolean;
-    childrenVisibility: boolean
+    childrenVisibility: boolean;
 };
 
 export type CategoriesType = {
@@ -16,7 +16,6 @@ export type ChildrenType = {
     [index: string]: [string, string];
 };
 
-
 export type PayloadType = {
     id: string;
     status: string;
@@ -24,7 +23,7 @@ export type PayloadType = {
 };
 
 export type DataType = {
-    id: string,
-    name: string,
-    parentId: string | null
-}
+    id: string;
+    name: string;
+    parentId: string | null;
+};
