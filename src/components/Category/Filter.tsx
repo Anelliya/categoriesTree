@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import { useAppDispatch } from '../hook';
+import { useAppDispatch } from '../../hook';
 
-import { setIsActive, changeSearchTermMatch } from '../redux/categorySlice';
+import { setIsActive, changeSearchTermMatch } from '../../redux/categorySlice';
 
 import { debounce } from 'lodash';
 

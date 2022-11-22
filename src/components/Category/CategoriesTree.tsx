@@ -1,5 +1,5 @@
-import { useAppSelector } from '../hook';
-import { getRootCategories } from '../redux/selectors';
+import { useAppSelector } from '../../hook';
+import { getRootCategories } from '../../redux/selectors';
 import ViewportList from 'react-viewport-list';
 
 import Category from './Category';

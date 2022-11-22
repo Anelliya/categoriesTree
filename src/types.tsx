@@ -16,8 +16,15 @@ export type ChildrenType = {
     [index: string]: [string, string];
 };
 
+
 export type PayloadType = {
     id: string;
     status: string;
     childrenIds: string[] | null;
 };
+
+export type DataType = {
+    id: string,
+    name: string,
+    parentId: string | null
+}

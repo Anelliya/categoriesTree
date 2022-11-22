@@ -1,15 +1,15 @@
 import { useEffect, useState, useRef } from 'react';
-import { changeStatus, changeChildrenVisibility } from '../redux/categorySlice';
+import { changeStatus, changeChildrenVisibility } from '../../redux/categorySlice';
 import {
     getChildrenByParentId,
     getChildrensIds,
     categoryHasChildren,
     getChildrenStatus,
-} from '../redux/selectors';
+} from '../../redux/selectors';
 
-import { useAppSelector, useAppDispatch } from '../hook';
+import { useAppSelector, useAppDispatch } from '../../hook';
 
-import { CategoryType } from '../types';
+import { CategoryType } from '../../types';
 
 const CHECKBOX_STATUS = {
     unchecked: 'unchecked',
