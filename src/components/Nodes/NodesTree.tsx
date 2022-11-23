@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import ViewportList from 'react-viewport-list';
 import * as type from './types';
 import Node from './Node';
@@ -17,6 +17,8 @@ const getNodesList = (
     return data.filter(el => el.parentId === parentId);
 };
 
+// creates initial collection to the "HashMap" (object) of key-value pairs
+// for faster search by id.
 const createNodesTreeState = (nodes: type.DataType[], status?: string) => {
     return nodes.reduce((result, node) => {
         const { name, id, parentId } = node;
@@ -33,26 +35,31 @@ const createNodesTreeState = (nodes: type.DataType[], status?: string) => {
     }, {});
 };
 
-const changeParentStatus = (arg: type.ChangeNodeStatusFnArgType) => {
-    const { nodesState, data } = arg;
-    let { parentId, status, id } = arg;
+//creates and returns updated data of parents
+const updateParentStatus = (args: type.ChangeNodeStatusFnArgsType) => {
+    const { nodesState, data } = args;
+    let { parentId, status, id } = args;
 
-    if (!data.filter(node => node.parentId === parentId).length) return;
-
-    let updatedParentsStatus: type.NewNodesStateType = {};
-    let ownParent = nodesState[parentId as keyof object].parentId;
+    //data to return
+    let updatedParentsStatus: type.StateType = {};
 
     while (parentId) {
-        const nestedNodes: type.DataType[] = data.filter(
-            node => node.parentId === parentId,
-        );
+        //the child node statuses of the current parent node
+        const nestedNodesStatus: string[] = data
+            .filter(node => node.parentId === parentId)
+            .map(node => {
+                return node.id === id ? status : nodesState[node.id].status;
+            });
+        //the current parent node status
         const parentStatus = nodesState[id].status;
-        const nestedNodesStatus: string[] = nestedNodes.map(node => {
-            return node.id === id ? status : nodesState[node.id].status;
-        });
 
-        if (nestedNodesStatus.every(nodeStatus => nodeStatus === parentStatus))
+        //does nothing if every child has the same status as a parent
+        if (
+            nestedNodesStatus.every(nodeStatus => nodeStatus === parentStatus)
+        ) {
             return;
+        }
+
         if (
             nestedNodesStatus.every(
                 nodeStatus => nodeStatus === CHECKBOX_STATUS.checked,
@@ -91,20 +98,31 @@ const changeParentStatus = (arg: type.ChangeNodeStatusFnArgType) => {
             };
         }
 
-        if (!ownParent) return updatedParentsStatus;
+        // The parent node of current parent
+        const ownParent = nodesState[parentId as keyof object].parentId;
+
+        if (!ownParent) {
+            //stop iterations when the current parent is a root node
+            return updatedParentsStatus;
+        }
+        //assigns the updated current parent's status as the status for the next iteration
         status = updatedParentsStatus[parentId].status;
+        //assigns the current parent's id as a child id
         id = parentId;
+        //assigns the current parent's parent id as parent id for the next iteration
         parentId = ownParent;
-        ownParent = nodesState[parentId].parentId;
     }
+
     return updatedParentsStatus;
 };
 
-const changeNestedNodesStatus = (arg: type.ChangeNodeStatusFnArgType) => {
-    const { status, data, nodesState } = arg;
-    let { nestedNodes } = arg;
+//creates and returns updated status data of child nodes
+const updateNestedNodesStatus = (args: type.ChangeNodeStatusFnArgsType) => {
+    const { status, data, nodesState } = args;
+    let { nestedNodes } = args;
 
-    let updatedNestedNodesStatusData = {};
+    //data to return
+    let updatedNestedNodesData = {};
 
     while (nestedNodes?.length) {
         const updatedCurrentNodesData = nestedNodes.reduce((result, node) => {
@@ -114,118 +132,129 @@ const changeNestedNodesStatus = (arg: type.ChangeNodeStatusFnArgType) => {
             };
         }, {});
 
-        updatedNestedNodesStatusData = {
-            ...updatedNestedNodesStatusData,
+        updatedNestedNodesData = {
+            ...updatedNestedNodesData,
             ...updatedCurrentNodesData,
         };
+
+        //assigns nested nodes of current nested nodes as nested nodes for the next iteration
         nestedNodes = nestedNodes
             ?.map(({ id }) => data.filter(node => node.parentId === id))
             .flat();
     }
-    return updatedNestedNodesStatusData;
+    return updatedNestedNodesData;
 };
 
-const changeNodeStatus = (arg: type.ChangeNodeStatusFnArgType) => {
+const changeNodeStatus = (args: type.ChangeNodeStatusFnArgsType) => {
     const { id, status, nestedNodes, parentId, nodesState, setNodesState } =
-        arg;
-    const updatedParentsStatus = parentId && changeParentStatus(arg);
-    const updatedNestedNodesStatus =
-        nestedNodes && changeNestedNodesStatus(arg);
+        args;
+    const updatedParentsStatus = parentId ? updateParentStatus(args) : null;
+    const updatedNestedNodesStatus = nestedNodes
+        ? updateNestedNodesStatus(args)
+        : null;
     const updatedCurrentStatus = { ...nodesState[id], status: status };
 
-    if (updatedNestedNodesStatus && CHECKBOX_STATUS.indeterminate) {
-        updatedParentsStatus
-            ? setNodesState({
+    let nodesStateData;
+
+    if (updatedNestedNodesStatus) {
+        nodesStateData = updatedParentsStatus
+            ? {
                   ...nodesState,
                   [id]: updatedCurrentStatus,
                   ...updatedNestedNodesStatus,
                   ...updatedParentsStatus,
-              })
-            : setNodesState({
+              }
+            : {
                   ...nodesState,
                   [id]: updatedCurrentStatus,
                   ...updatedNestedNodesStatus,
-              });
+              };
     } else {
-        updatedParentsStatus
-            ? setNodesState({
+        nodesStateData = updatedParentsStatus
+            ? {
                   ...nodesState,
                   [id]: updatedCurrentStatus,
                   ...updatedParentsStatus,
-              })
-            : setNodesState({ ...nodesState, [id]: updatedCurrentStatus });
+              }
+            : { ...nodesState, [id]: updatedCurrentStatus };
     }
+    //sets nodes's state with updated data
+    setNodesState(nodesStateData);
 };
 
 const changeSearchTermMatch = (
-    nodesState: type.NewNodesStateType,
+    nodesState: type.StateType,
+    setNodesState: React.Dispatch<React.SetStateAction<type.StateType>>,
     request: string,
 ) => {
     const searchTerm = request.toLowerCase();
 
-    const handledCategories: { [index: string]: number } = {};
+    //data to set to state
+    let updatedMatchSerchTerm = {};
 
-    //at the beginning sets the category match status to false
-    for (const categoryId in nodesState) {
-        nodesState[categoryId].matchesSearchTerm = false;
-
-        let currentCategory = nodesState[categoryId];
-
-        //checks if the current category matches the search
-        const matches = currentCategory.name
+    for (const node in nodesState) {
+        const matches = nodesState[node].name
             .toLocaleLowerCase()
             .includes(searchTerm);
 
-        //if the current category does't match the search, moves on to the next category
-        if (!matches) {
-            continue;
+        const data = {
+            [nodesState[node].id]: {
+                ...nodesState[node],
+                matchesSearchTerm: matches,
+            },
+        };
+
+        if (matches) {
+            let currentCategory = nodesState[node];
+            while (currentCategory.parentId) {
+                const data = {
+                    [currentCategory.parentId]: {
+                        ...nodesState[currentCategory.parentId],
+                        matchesSearchTerm: matches,
+                    },
+                };
+
+                updatedMatchSerchTerm = { ...updatedMatchSerchTerm, ...data };
+                currentCategory = nodesState[currentCategory.parentId];
+            }
         }
 
-        //checks if current category has already been handled and moves on to the next category if has been
-        if (handledCategories[currentCategory.id]) {
-            continue;
-        }
-
-        //updates the current category matchesSearchTerm key to true or false depending on the validation result
-        nodesState[currentCategory.id].matchesSearchTerm = matches;
-
-        //enters the condition while the current category has a parent
-        while (currentCategory.parentId) {
-            //sets the parent as current category
-            currentCategory = nodesState[currentCategory.parentId];
-            nodesState[currentCategory.id].matchesSearchTerm = matches;
-            //adds current category to handled categories object
-            handledCategories[currentCategory.id] = 1;
-        }
+        updatedMatchSerchTerm = { ...updatedMatchSerchTerm, ...data };
     }
+
+    setNodesState(updatedMatchSerchTerm);
 };
 
 const NodesTree = ({ data }: type.TreeProps) => {
-    const [nodesState, setNodesState] = useState<type.NewNodesStateType>(
+    const [nodesState, setNodesState] = useState<type.StateType>(
         createNodesTreeState(data),
     );
     const [isFilterActive, toogleFilterActiveStatus] = useState<boolean>(false);
+
+    //gets the root categories
     const rootNodes = getNodesList(null, data);
 
     const props = {
         data,
         nodesState,
         changeNodeStatus,
-        changeParentStatus,
+        updateParentStatus,
         setNodesState,
         isFilterActive,
+        CHECKBOX_STATUS,
     };
 
     return (
         <>
             <Filter
                 nodesState={nodesState}
+                setNodesState={setNodesState}
                 toogleFilterActiveStatus={toogleFilterActiveStatus}
                 changeSearchTermMatch={changeSearchTermMatch}
             />
             <ul className="mr-3">
                 <ViewportList items={rootNodes} margin={8}>
-                    {item => <Node node={item} {...props} key={item.id} />}
+                    {item => <Node node={item} props={props} key={item.id} />}
                 </ViewportList>
             </ul>
         </>

@@ -1,52 +1,38 @@
 import { useEffect, useState, useRef } from 'react';
-import { DataType, NodePropsType, ExtendTreeFnType } from './types';
+import * as type from './types';
 
-//render nested nodes tree
-const extendTreeByNestedNodes = ({
-    nodes,
-    data,
-    nodesState,
-    changeNodeStatus,
-    setNodesState,
-    isFilterActive,
-}: ExtendTreeFnType) => {
-    const props = {
-        data,
-        nodesState,
-        changeNodeStatus,
-        setNodesState,
-        isFilterActive,
-    };
-
+//render nested nodes
+const extendTreeByNestedNodes = ({ nodes, props }: type.ExtendTreeFnType) => {
     return (
         <ul className="mx-5 mb-3">
             {nodes.map(node => (
-                <Node key={node.id} node={node} {...props} />
+                <Node key={node.id} node={node} props={props} />
             ))}
         </ul>
     );
 };
 
-const CHECKBOX_STATUS = {
-    unchecked: 'unchecked',
-    checked: 'checked',
-    indeterminate: 'indeterminate',
-};
+const Node = ({ node, props }: type.NodePropsType) => {
+    const [visible, toggleVisible] = useState<boolean>(false);
+    const [nestedNodes, setNestedNodes] = useState<type.DataType[]>();
 
-const Node = ({
-    node: { id, name, parentId },
-    data,
-    nodesState,
-    changeNodeStatus,
-    setNodesState,
-    isFilterActive,
-}: NodePropsType) => {
-    const [visible, toggleVisible] = useState<boolean>(isFilterActive);
-    const [nestedNodes, setNestedNodes] = useState<DataType[]>();
+    const {
+        data,
+        nodesState,
+        changeNodeStatus,
+        setNodesState,
+        isFilterActive,
+        CHECKBOX_STATUS,
+    } = props;
+    const { id, name, parentId } = node;
 
     const checkboxRef = useRef() as React.MutableRefObject<HTMLInputElement>;
 
-    const checkCheckbox = (status: string) => {
+    //set checkbox checked/unchecked/indeterminate depending on received status data
+    const setCheckbox = async (status: string) => {
+        if (!checkboxRef.current) {
+            return;
+        }
         if (status === CHECKBOX_STATUS.checked) {
             checkboxRef.current.checked = true;
             checkboxRef.current.indeterminate = false;
@@ -60,42 +46,56 @@ const Node = ({
     };
 
     useEffect(() => {
+        //gets child nodes data
         const nestedNodes = data.filter(el => el.parentId === id);
         setNestedNodes(nestedNodes);
-        checkboxRef.current && checkCheckbox(nodesState[id].status);
+        setCheckbox(nodesState[id].status);
     }, []);
 
     useEffect(() => {
-        checkboxRef.current && checkCheckbox(nodesState[id].status);
+        //checks the checkbox for every status change
+        setCheckbox(nodesState[id].status);
     }, [nodesState[id]]);
 
     useEffect(() => {
-        // if(!isFilterActive){
-        //    return toggleVisible(false)
-        // }
-        nodesState[id].matchesSearchTerm && toggleVisible(isFilterActive);
-    }, [isFilterActive]);
+        //matchesSearchTerm returns true if the current category matching the search
+        if (!isFilterActive) {
+            setCheckbox(nodesState[id].status);
+        }
+        if (nodesState[id].matchesSearchTerm) {
+            toggleVisible(nodesState[id].matchesSearchTerm);
+        }
+    }, [isFilterActive, nodesState]);
 
-    //sends the new status to the node status data object
     const handleChecboxClick = () => {
         const status: string = checkboxRef.current.checked
             ? CHECKBOX_STATUS.checked
             : CHECKBOX_STATUS.unchecked;
+
         const params = { id, status, nodesState, data, setNodesState };
+
+        let nodeStatusData;
+
         if (nestedNodes?.length) {
-            parentId
-                ? changeNodeStatus({ ...params, parentId, nestedNodes })
-                : changeNodeStatus({ ...params, nestedNodes });
-        } else
-            parentId
-                ? changeNodeStatus({ ...params, parentId })
-                : changeNodeStatus({ ...params });
+            nodeStatusData = parentId
+                ? { ...params, parentId, nestedNodes }
+                : { ...params, nestedNodes };
+        } else {
+            nodeStatusData = parentId ? { ...params, parentId } : { ...params };
+        }
+
+        changeNodeStatus(nodeStatusData);
     };
+
     const setNestedNodesVisibile = () => {
-        nestedNodes?.length && toggleVisible(!visible);
+        //does nothing if node doesn't have child nodes
+        if (nestedNodes?.length) {
+            toggleVisible(!visible);
+        }
     };
 
     return (
+        //if the filter is active, the current node is rendered only if it matches the search criteria
         <>
             {(!isFilterActive || nodesState[id].matchesSearchTerm) && (
                 <li
@@ -108,6 +108,7 @@ const Node = ({
                     >
                         {(nestedNodes?.length && (visible ? '-' : '+')) || null}
                     </span>
+
                     <input
                         type="checkbox"
                         ref={checkboxRef}
@@ -116,18 +117,14 @@ const Node = ({
                     />
 
                     <label className="ml-1 text-gray-900 dark:text-gray-300 ">
-                        {name}// {nodesState[id].status}//
-                        {nodesState[id].matchesSearchTerm ? 1 : 0}
+                        {name}
                     </label>
+
                     {visible &&
                         nestedNodes &&
                         extendTreeByNestedNodes({
                             nodes: nestedNodes,
-                            data,
-                            nodesState,
-                            changeNodeStatus,
-                            setNodesState,
-                            isFilterActive,
+                            props: props,
                         })}
                 </li>
             )}

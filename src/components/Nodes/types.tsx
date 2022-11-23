@@ -3,50 +3,44 @@ export type DataType = {
     name: string;
     parentId: string | null;
 };
-export type ChangeNodeStatusFnArgType = {
+export type ChangeNodeStatusFnArgsType = {
     id: string;
     status: string;
     nestedNodes?: DataType[];
     parentId?: string;
-    nodesState: NewNodesStateType;
-    // nodesState:  NodesStateType,
+    nodesState: StateType;
     data: DataType[];
-    // setNodesState: React.Dispatch<React.SetStateAction<NodesStateType>>
-    setNodesState: React.Dispatch<React.SetStateAction<NewNodesStateType>>;
+    setNodesState: React.Dispatch<React.SetStateAction<StateType>>;
+};
+
+export type PropsTypes = {
+    data: DataType[];
+    nodesState: StateType;
+    changeNodeStatus: (args: ChangeNodeStatusFnArgsType) => void;
+    setNodesState: React.Dispatch<React.SetStateAction<StateType>>;
+    isFilterActive: boolean;
+    CHECKBOX_STATUS: {
+        unchecked: string;
+        checked: string;
+        indeterminate: string;
+    };
 };
 
 export type NodePropsType = {
-    data: DataType[];
     node: DataType;
-    nodesState: NewNodesStateType;
-    // nodesState: NodesStateType,
-    changeNodeStatus: (arg: ChangeNodeStatusFnArgType) => void;
-    setNodesState: React.Dispatch<React.SetStateAction<NewNodesStateType>>;
-    // setNodesState: React.Dispatch<React.SetStateAction<NodesStateType>>,
-    isFilterActive: boolean;
+    props: PropsTypes;
 };
 
 export type ExtendTreeFnType = {
     nodes: DataType[];
-    data: DataType[];
-    nodesState: NewNodesStateType;
-    // nodesState: NodesStateType,
-    changeNodeStatus: (arg: ChangeNodeStatusFnArgType) => void;
-    // setNodesState: React.Dispatch<React.SetStateAction<NodesStateType>>,
-    setNodesState: React.Dispatch<React.SetStateAction<NewNodesStateType>>;
-
-    isFilterActive: boolean;
+    props: PropsTypes;
 };
 
 export type TreeProps = {
     data: DataType[];
 };
 
-export type NodesStateType = {
-    [index: string]: string;
-};
-
-export type NewNodesStateType = {
+export type StateType = {
     [index: string]: {
         id: string;
         status: string;
@@ -56,15 +50,12 @@ export type NewNodesStateType = {
     };
 };
 
-export type UpdatedParentsStatusType = {
-    [index: string]: string;
-};
-
 export type FilterPropsType = {
-    // nodesState: NodesStateType,
-    nodesState: NewNodesStateType;
+    nodesState: StateType;
+    setNodesState: React.Dispatch<React.SetStateAction<StateType>>;
     changeSearchTermMatch: (
-        nodesState: NewNodesStateType,
+        nodesState: StateType,
+        setNodesState: React.Dispatch<React.SetStateAction<StateType>>,
         request: string,
     ) => void;
     toogleFilterActiveStatus: React.Dispatch<React.SetStateAction<boolean>>;

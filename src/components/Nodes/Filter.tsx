@@ -7,9 +7,10 @@ const Filter = ({
     nodesState,
     toogleFilterActiveStatus,
     changeSearchTermMatch,
+    setNodesState,
 }: FilterPropsType) => {
     const [filterValue, setFilterValue] = useState<string>('');
-    
+
     useEffect(() => {
         const debounceFn = debounce(() => {
             //set the active status of filter field
@@ -17,9 +18,9 @@ const Filter = ({
 
             if (filterValue) {
                 //sends the value of filter field for the searching of matching categories
-                changeSearchTermMatch(nodesState, filterValue);
+                changeSearchTermMatch(nodesState, setNodesState, filterValue);
             }
-        }, 1000);
+        }, 500);
         debounceFn();
         return () => debounceFn.cancel();
     }, [filterValue]);
